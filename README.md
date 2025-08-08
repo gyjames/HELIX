@@ -17,7 +17,7 @@ pip install pandas pickle numpy pyfaidx
 
 ## Usage
 
-1. Build up an database file upon transcript annotations provided.
+1. Generate input files upon transcript annotations / gene expression matrix provided.
 
 ```
 python scripts/read_annotation.py annotation.gtf
