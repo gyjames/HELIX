@@ -33,3 +33,29 @@ python scripts/read_annotation.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 ```
 python HELIX.py -b models/baseline.pth -r models/regulatory.pth -t models/tx.pth -ds demo/splice_site_input.txt -dt demo/tx_input.txt -rbp demo/rbp.pickle -o outputdir -c 'cuda:0'
 ```
+
+See full options below:
+```
+options:
+  -h, --help            show this help message and exit
+  -b BASELINE, --baseline BASELINE
+                        Baseline module path.
+  -r REGULATORY, --regulatory REGULATORY
+                        Regulatory module path.
+  -t TRANSCRIPT, --transcript TRANSCRIPT
+                        Transcript model path.
+  -ds SSINPUT, --ssinput SSINPUT
+                        Input for splice site model.
+  -dt TXINPUT, --txinput TXINPUT
+                        Input for transcript model.
+  -rbp RBPINPUT, --rbpinput RBPINPUT
+                        Normalized RBP path.
+  -o OUT, --out OUT     Output directory.
+  -c DEVICE, --device DEVICE
+                        Device
+```
+
+## Output
+
+- Output of splice site model has 11 columns: splice site index, splice site type(derived from gtf annotation), probability of being acceptor, probability of being donor, acceptor splicing strength (baseline), donor splicing strength (baseline), acceptor splicing regulatory level, donor splicing regulatory level, probability of no regulation, probability of upregulation, probability of downregulation
+- Output of transcript model has 2 columns: transcript index, isoform usage
