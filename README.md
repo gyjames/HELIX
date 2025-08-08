@@ -18,13 +18,18 @@ pip install pandas pickle numpy pyfaidx
 ## Usage
 
 1. Generate input files upon transcript annotations / gene expression matrix provided.
+- In the provided gene matrix, each column represents a sample and each row represents a gene. See the format in /demo.
+- The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression .pickle file. 
 
 ```
-python scripts/read_annotation.py annotation.gtf
+python scripts/read_annotation.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 ```
 
-2. Run HELIX.py to simutaneously predict splicing strength and isoform usage for annotated transcript isoforms. 
+2. Run HELIX.py to simutaneously predict splicing strength and isoform usage for annotated transcript isoforms.
+
+- Pretrained model weights have been uploaded in the model/ directory
+- The input files (two txt and rbp expression) are generated through the preprocessing step.  
 
 ```
-python helix.py RBP.tsv annotation.db
+python HELIX.py -b models/baseline.pth -r models/regulatory.pth -t models/tx.pth -ds demo/splice_site_input.txt -dt demo/tx_input.txt -rbp demo/rbp.pickle -o outputdir -c 'cuda:0'
 ```
