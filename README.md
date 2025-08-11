@@ -6,12 +6,16 @@
 
 - HELIX is a deep learning model constructed based on PyTorch 2.1.0 and Python 3.11.5.
 
+- Python and pip installation:
+```
+conda create -n helix python=3.11.5
+```
+
 - Pytorch installation: https://pytorch.org/get-started/locally/
 
 - Other dependencies can be installed via conda and pip:
 
 ```
-conda create -n helix python=3.11.5
 pip install pandas pickle numpy pyfaidx
 ```
 
