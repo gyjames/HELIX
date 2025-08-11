@@ -3,7 +3,7 @@ import torch
 import torch.utils.data as data
 import torch.nn.functional as F
 import torch.nn as nn
-
+import torch.nn.utils.rnn as R
 
 class ResBlock(nn.Module):
     def __init__(self, L, W, AR, pad=True):
@@ -63,86 +63,9 @@ class FC(nn.Module):
 
         return x
 
-class Pangolin_mean_v2(nn.Module):
+class Sequence_module(nn.Module):
     def __init__(self, L, W, AR):
-        super(Pangolin_mean_v2, self).__init__()
-        self.n_chans = L
-        self.conv1 = nn.Conv1d(4, L, 1)
-        self.skip = nn.Conv1d(L, L, 1)
-        self.resblocks, self.convs = nn.ModuleList(), nn.ModuleList()
-        for i in range(len(W)):
-            self.resblocks.append(ResBlock(L, W[i], AR[i]))
-            if (((i + 1) % 4 == 0) or ((i + 1) == len(W))):
-                self.convs.append(nn.Conv1d(L, L, 1))
-        self.conv_last1 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
-        self.conv_last2 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
-        self.conv_last3 = FC(L, [L, 2], 0, False, activation='relu', output_activation=False)
-        self.sigmoid = nn.Sigmoid()
-
-    def forward(self, x):
-        conv = self.conv1(x)
-        skip = self.skip(conv)
-        j = 0
-        for i in range(len(W)):
-            conv = self.resblocks[i](conv)
-            if (((i + 1) % 4 == 0) or ((i + 1) == len(W))):
-                dense = self.convs[j](conv)
-                j += 1
-                skip = skip + dense
-        CL = 2 * np.sum(AR * (W - 1))
-        skip = F.pad(skip, (-CL // 2, -CL // 2)).squeeze(-1)
-        out1 = self.conv_last1(skip)
-        out2 = self.conv_last2(skip)
-        out3 = self.sigmoid(self.conv_last3(skip))
-        return out1, out2, out3
-
-class Pangolin_tissues_RBP_v2_17(nn.Module):
-
-
-    def __init__(self, L, W, AR, NR=1499, dropout_rate=0):
-
-        super(Pangolin_tissues_RBP_v2_17, self).__init__()
-        self.n_chans = L
-        # self.n_tissue = n_tissue
-        self.conv1 = nn.Conv1d(4, L, 1)
-        self.skip = nn.Conv1d(L, L, 1)
-        self.resblocks, self.convs = nn.ModuleList(), nn.ModuleList()
-        for i in range(len(W)):
-            self.resblocks.append(ResBlock(L, W[i], AR[i]))
-            if (((i + 1) % 4 == 0) or ((i + 1) == len(W))):
-                self.convs.append(nn.Conv1d(L, L, 1))
-        
-        self.rbp_net = FC(NR, [512, L], dropout_rate, True, activation='relu', output_activation=True)
-        self.conv_last = FC(L + L + 32, [L], 0, False, activation='relu', output_activation=False)
-        self.conv_last1 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
-        self.conv_last2 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
-        self.conv_last3 = FC(L, [L, 3], 0, False, activation='relu', output_activation=False)
-        self.sigmoid = nn.Sigmoid()
-
-    def forward(self, x, rbp, site_emb):
-        conv = self.conv1(x)
-        skip = self.skip(conv)
-        j = 0
-        for i in range(len(W)):
-            conv = self.resblocks[i](conv)
-            if (((i + 1) % 4 == 0) or ((i + 1) == len(W))):
-                dense = self.convs[j](conv)
-                j += 1
-                skip = skip + dense
-        CL = 2 * np.sum(AR * (W - 1))
-        skip = F.pad(skip, (-CL // 2, -CL // 2))
-        rbp = self.rbp_net(rbp).unsqueeze(-1)
-        skip = torch.concat([skip, rbp, site_emb.unsqueeze(-1)], dim=1).squeeze(-1)
-        mid = self.conv_last(skip)
-        out1 = self.conv_last1(mid)
-        out2 = self.conv_last2(mid)
-        out3 = self.conv_last3(mid)
-        
-        return out1, out2, out3
-
-class Pangolin(nn.Module):
-    def __init__(self, L, W, AR):
-        super(Pangolin, self).__init__()
+        super(Sequence_module, self).__init__()
         self.n_chans = L
         self.conv1 = nn.Conv1d(4, L, 1)
         self.skip = nn.Conv1d(L, L, 1)
@@ -168,21 +91,100 @@ class Pangolin(nn.Module):
                 skip = skip + dense
         CL = 2 * np.sum(self.AR * (self.W - 1))
         skip = F.pad(skip, (-CL // 2, -CL // 2))
-        print(skip.shape)
         out1 = self.conv_last1(skip).squeeze(-1)
         return out1
 
-class iso_v3(nn.Module):
+class Baseline_module(nn.Module):
+    def __init__(self, L, W, AR):
+        super(Baseline_module, self).__init__()
+        self.n_chans = L
+        self.conv1 = nn.Conv1d(4, L, 1)
+        self.skip = nn.Conv1d(L, L, 1)
+        self.resblocks, self.convs = nn.ModuleList(), nn.ModuleList()
+        for i in range(len(W)):
+            self.resblocks.append(ResBlock(L, W[i], AR[i]))
+            if (((i + 1) % 4 == 0) or ((i + 1) == len(W))):
+                self.convs.append(nn.Conv1d(L, L, 1))
+        self.conv_last1 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
+        self.conv_last2 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
+        self.conv_last3 = FC(L, [L, 2], 0, False, activation='relu', output_activation=False)
+        self.sigmoid = nn.Sigmoid()
+        self.W = W
+        self.AR = AR
+
+    def forward(self, x):
+        conv = self.conv1(x)
+        skip = self.skip(conv)
+        j = 0
+        for i in range(len(self.W)):
+            conv = self.resblocks[i](conv)
+            if (((i + 1) % 4 == 0) or ((i + 1) == len(self.W))):
+                dense = self.convs[j](conv)
+                j += 1
+                skip = skip + dense
+        CL = 2 * np.sum(self.AR * (self.W - 1))
+        skip = F.pad(skip, (-CL // 2, -CL // 2)).squeeze(-1)
+        out1 = self.conv_last1(skip)
+        out2 = self.conv_last2(skip)
+        out3 = self.sigmoid(self.conv_last3(skip))
+        return out1, out2, out3
+
+class Regulatory_module(nn.Module):
+
+    def __init__(self, L, W, AR, NR=1499, dropout_rate=0):
+
+        super(Regulatory_module, self).__init__()
+        self.n_chans = L
+        # self.n_tissue = n_tissue
+        self.conv1 = nn.Conv1d(4, L, 1)
+        self.skip = nn.Conv1d(L, L, 1)
+        self.resblocks, self.convs = nn.ModuleList(), nn.ModuleList()
+        for i in range(len(W)):
+            self.resblocks.append(ResBlock(L, W[i], AR[i]))
+            if (((i + 1) % 4 == 0) or ((i + 1) == len(W))):
+                self.convs.append(nn.Conv1d(L, L, 1))
+        
+        self.rbp_net = FC(NR, [512, L], dropout_rate, True, activation='relu', output_activation=True)
+        self.conv_last = FC(L + L + 32, [L], 0, False, activation='relu', output_activation=False)
+        self.conv_last1 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
+        self.conv_last2 = FC(L, [L, 1], 0, False, activation='relu', output_activation=False)
+        self.conv_last3 = FC(L, [L, 3], 0, False, activation='relu', output_activation=False)
+        self.sigmoid = nn.Sigmoid()
+        self.W = W
+        self.AR = AR
+
+    def forward(self, x, rbp, site_emb):
+        conv = self.conv1(x)
+        skip = self.skip(conv)
+        j = 0
+        for i in range(len(self.W)):
+            conv = self.resblocks[i](conv)
+            if (((i + 1) % 4 == 0) or ((i + 1) == len(self.W))):
+                dense = self.convs[j](conv)
+                j += 1
+                skip = skip + dense
+        CL = 2 * np.sum(self.AR * (self.W - 1))
+        skip = F.pad(skip, (-CL // 2, -CL // 2))
+        rbp = self.rbp_net(rbp).unsqueeze(-1)
+        skip = torch.concat([skip, rbp, site_emb.unsqueeze(-1)], dim=1).squeeze(-1)
+        mid = self.conv_last(skip)
+        out1 = self.conv_last1(mid)
+        out2 = self.conv_last2(mid)
+        out3 = self.conv_last3(mid)
+        
+        return out1, out2, out3
+
+class Transcript_model(nn.Module):
 
     def __init__(self):
-        super(iso_v3, self).__init__()
+        super(Transcript_model, self).__init__()
         self.dim = 164
         self.L = self.dim # v2
         self.W = np.asarray([11, 11, 11, 11, 11, 11, 11, 11])
         self.AR = np.asarray([1, 1, 1, 1, 4, 4, 4, 4])
         self.RBPfc = FC(1499, [512, self.dim], dropout_rate=0, batch_normalization=False, activation='relu', output_activation=True)
-        self.conv1 = Pangolin(self.L, self.W, self.AR)
-        self.conv2 = Pangolin(self.L, self.W, self.AR)
+        self.conv1 = Sequence_module(self.L, self.W, self.AR)
+        self.conv2 = Sequence_module(self.L, self.W, self.AR)
         self.fc1 = FC(2*self.dim, [self.dim], dropout_rate=0, batch_normalization=False, activation='relu', output_activation=True)
         self.fc2 = FC(2*self.dim, [self.dim], dropout_rate=0, batch_normalization=False, activation='relu', output_activation=True)
         self.embedding = nn.Embedding(2, self.dim)
