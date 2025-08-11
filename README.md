@@ -31,23 +31,17 @@ python script/preprocessing.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 
 2. Run HELIX.py to simutaneously predict splicing strength and isoform usage for annotated transcript isoforms.
 
-- Pretrained model weights have been uploaded in the model/ directory
+- Pretrained model weights have been uploaded in the script/model directory
 - The input files (two txt and rbp expression) are generated through the preprocessing step.  
 
 ```
-python HELIX.py -b models/baseline.pth -r models/regulatory.pth -t models/tx.pth -ds demo/splice_site_input.txt -dt demo/tx_input.txt -rbp demo/rbp.pickle -o outputdir -c 'cuda:0'
+python HELIX.py -ds demo/splice_site_input.txt -dt demo/tx_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa
 ```
 
 See full options below:
 ```
 options:
   -h, --help            show this help message and exit
-  -b BASELINE, --baseline BASELINE
-                        Baseline module path.
-  -r REGULATORY, --regulatory REGULATORY
-                        Regulatory module path.
-  -t TRANSCRIPT, --transcript TRANSCRIPT
-                        Transcript model path.
   -ds SSINPUT, --ssinput SSINPUT
                         Input for splice site model.
   -dt TXINPUT, --txinput TXINPUT
@@ -55,8 +49,16 @@ options:
   -rbp RBPINPUT, --rbpinput RBPINPUT
                         Normalized RBP path.
   -o OUT, --out OUT     Output directory.
-  -c DEVICE, --device DEVICE
-                        Device
+  -g GENOME, --genome GENOME
+                        Reference genome path.
+  -d DEVICE, --device DEVICE
+                        Device (CPU or GPU index)
+  -c CORE, --core CORE  Number of CPU core. Default 1.
+  -bs BATCHSIZES, --batchsizes BATCHSIZES
+                        Batch size for splice site model prediction. Default 64.
+  -bt BATCHSIZET, --batchsizet BATCHSIZET
+                        Batch size for transcript model prediction. Default 32.
+
 ```
 
 ## Output
