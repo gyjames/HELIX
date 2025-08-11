@@ -16,17 +16,17 @@ conda create -n helix python=3.11.5
 - Other dependencies can be installed via conda and pip:
 
 ```
-pip install pandas pickle numpy pyfaidx
+pip install pandas numpy pyfaidx
 ```
 
 ## Usage
 
-1. Generate input files upon transcript annotations / gene expression matrix provided.
+1. Generate input files upon transcript annotations / gene expression matrix provided with script/preprocessing.py
 - In the provided gene matrix, each column represents a sample and each row represents a gene. See the format in /demo.
 - The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression .pickle file. 
 
 ```
-python scripts/read_annotation.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
+python script/preprocessing.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 ```
 
 2. Run HELIX.py to simutaneously predict splicing strength and isoform usage for annotated transcript isoforms.
