@@ -10,7 +10,7 @@
 ```
 conda create -n helix python=3.11.5
 ```
-
+- If you are running HELIX on GPU, CUDA is required before pytorch installation.
 - Pytorch installation: https://pytorch.org/get-started/locally/
 
 - Other dependencies can be installed via conda and pip:
