@@ -6,6 +6,7 @@ from functools import reduce
 import shutil
 import sys
 import argparse as ap
+from pkg_resources import resource_filename
 
 def gtf_process(gtf, sample_list, out_d):
 
@@ -169,6 +170,7 @@ def output_tx_model_input(gtf_dict, TSS_group, sample_list):
 
 def extend_genenames(sc_df, genes):
     sc_samples = sc_df.columns
+    sc_df.index = [i.split('.')[0] for i in sc_df.index]
     ref_df = pd.DataFrame({'ref':0}, index=genes)
     sc_df = pd.merge(left=ref_df, left_index=True, right=sc_df, right_index=True, how='left')
     sc_df = sc_df.fillna(0)
@@ -214,7 +216,7 @@ expr_fn = args.r
 expr = pd.read_csv(expr_fn, sep='\t', index_col=0)
 expr = expr.loc[~expr.index.duplicated(), :]
 
-with open('/data/workdir/zhouzh/ProjectIsoPred/TS/Training_data/gene_expr/sample358_rbp_normalization_material.pickle', 'rb') as f:
+with open(resource_filename('HELIX', 'utils/rbp_normalization_material.pickle'), 'rb') as f:
     norm_mat = pickle.load(f)
 
 expr_sc = extend_genenames(expr, norm_mat['gene_name'])
