@@ -59,6 +59,11 @@ python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rb
 python HELIX.py -ds demo/splice_site_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --ssonly
 ```
 
+- When predicting splice with single cell RNA-seq data (10X), use the parameter *--sc*
+```
+python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --sc
+```
+
 See full options below:
 ```
 options:
