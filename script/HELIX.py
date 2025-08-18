@@ -211,6 +211,7 @@ def get_arg():
     parser.add_argument('-bs', '--batchsizes', required=False, action='store', default=64, help='Batch size for splice site model prediction. Default 64.')
     parser.add_argument('-bt', '--batchsizet', required=False, action='store', default=32, help='Batch size for transcript model prediction. Default 32.')
     parser.add_argument('--ssonly', required=False, action='store_true', default=False, help='Only predict splicing strength.')
+    parser.add_argument('--sc', required=False, action='store_true', default=False, help='Predict splicing strength and isoform usage with RBP expression derived from 10X data.')
     args = parser.parse_args()
 
     return args
@@ -228,6 +229,7 @@ def HELIX_predict():
     batchsizet = args.batchsizet
     genome = args.genome
     ssonly = args.ssonly
+    sc = args.sc
 
     # ================
     # Splice site model
@@ -239,13 +241,21 @@ def HELIX_predict():
     W = np.asarray([11, 11, 11, 11, 11, 11, 11, 11, 21, 21, 21, 21])
     AR = np.asarray([1, 1, 1, 1, 4, 4, 4, 4, 10, 10, 10, 10])
     net_mean = Baseline_module(L, W, AR)
-    weight = torch.load(resource_filename('HELIX', 'models/Baseline_splicing_module.pth'))
+    
+    if sc:
+        weight = torch.load(resource_filename('HELIX', 'models/sc_Baseline_splicing_module.pth'))
+    else:
+        weight = torch.load(resource_filename('HELIX', 'models/Baseline_splicing_module.pth'))
+
     net_mean.load_state_dict(weight)
     net_mean.to(device)
 
     L = 64 # v2
     net_diff = Regulatory_module(L, W, AR)
-    weight = torch.load(resource_filename('HELIX', 'models/Regulatory_splicing_module.pth'))
+    if sc:
+        weight = torch.load(resource_filename('HELIX', 'models/sc_Regulatory_splicing_module.pth'))
+    else:
+        weight = torch.load(resource_filename('HELIX', 'models/Regulatory_splicing_module.pth'))
     net_diff.load_state_dict(weight)
     net_diff.to(device)
     torch.set_num_threads(n_cpu)
@@ -354,7 +364,12 @@ def HELIX_predict():
     # Load model
 
     net = Transcript_model()
-    weight = torch.load(resource_filename('HELIX', 'models/Transcript_model.pth'))
+    
+    if sc:
+        weight = torch.load(resource_filename('HELIX', 'models/sc_Transcript_model.pth'))
+    else:
+        weight = torch.load(resource_filename('HELIX', 'models/Transcript_model.pth'))
+        
     net.load_state_dict(weight)
     net.to(device)
     print('HELIX transcript model loaded')
