@@ -13,7 +13,7 @@ conda create -n helix python=3.11.5
 - If you are running HELIX on GPU, **CUDA** is required before pytorch installation.
 - Pytorch installation: https://pytorch.org/get-started/locally/
 
-- Other dependencies can be installed via conda and pip:
+- Other dependencies can be installed via conda or pip:
 
 ```
 pip install pandas numpy pyfaidx
@@ -21,18 +21,33 @@ pip install pandas numpy pyfaidx
 
 ## Usage
 
-1. Generate input files upon transcript annotations / gene expression matrix provided with script/preprocessing.py
+**Step 1.** Generate input files upon transcript annotations / gene expression matrix provided with script/preprocessing.py
 - In the provided gene matrix, each column represents a sample and each row represents a gene. See the format in /demo.
-- The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression .pickle file. 
+- The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression .pickle file.
+- For customized splice site prediction (not derived from gtf annotation), see the input file format in /demo.
+
+Splice site input file format:
+
+| Identifier | Chromosome | Strand | Gene | Splice site type | Location | Sample | Label1 | Label2 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1	| chr1	| +	| ENSG00000237491.10_10	| a	| 728262	| Adipose_Subcutaneous	| 0	| 0 |
+
+- Identifier must be unique
+- Gene, Splice site type, Label1 and Label2 are not necessary provided
+- Sample must keep same with rbp expression file
+
+
+
 
 ```
 python script/preprocessing.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 ```
 
-2. Run HELIX.py to simutaneously predict splicing strength and isoform usage for annotated transcript isoforms.
+**Step 2.** Run HELIX.py to simutaneously predict splicing strength and isoform usage for annotated transcript isoforms.
 
 - Pretrained model weights have been uploaded in the script/model directory
-- The input files (two txt and rbp expression) are generated through the preprocessing step.  
+- The input files (two txt and rbp expression) are generated through the preprocessing step.
+- If only splicing strength is needed, use the parameter *--ssonly*
 
 ```
 python HELIX.py -ds demo/splice_site_input.txt -dt demo/tx_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa
