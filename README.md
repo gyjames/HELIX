@@ -48,10 +48,15 @@ python script/preprocessing.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 
 - Pretrained model weights have been uploaded in the script/model directory
 - The input files (two txt and rbp expression) are generated through the preprocessing step.
-- If only splicing strength is needed, use the parameter *--ssonly*
 
 ```
 python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa
+```
+
+- If only splicing strength is needed, use the parameter *--ssonly*
+
+```
+python HELIX.py -ds demo/splice_site_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --ssonly
 ```
 
 See full options below:
