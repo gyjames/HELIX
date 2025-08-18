@@ -85,6 +85,7 @@ options:
   -bt BATCHSIZET, --batchsizet BATCHSIZET
                         Batch size for transcript model prediction. Default 32.
   --ssonly              Only predict splicing strength.
+  --sc                  Predict splicing strength and isoform usage with RBP expression derived from 10X data.
 
 ```
 
