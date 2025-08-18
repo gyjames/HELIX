@@ -210,6 +210,7 @@ def get_arg():
     parser.add_argument('-c', '--core', required=False, action='store', default=1, help='Number of CPU core. Default 1.')
     parser.add_argument('-bs', '--batchsizes', required=False, action='store', default=64, help='Batch size for splice site model prediction. Default 64.')
     parser.add_argument('-bt', '--batchsizet', required=False, action='store', default=32, help='Batch size for transcript model prediction. Default 32.')
+    parser.add_argument('--ssonly', required=False, action='store_true', default=False, help='Only predict splicing strength.')
     args = parser.parse_args()
 
     return args
@@ -254,88 +255,96 @@ def HELIX_predict():
 
     rbp_dict = pickle.load(open(rbp_path, 'rb'))
     batch_size = batchsizes
-    dataset = IsoDataSet_splicesite(splice_input, rbp_dict, genome)
-    dataloader = DataLoader(dataset, shuffle=False, batch_size=batch_size, collate_fn=lambda x:x, pin_memory=True)
-    print('Splice site data loaded')
-
-    embedding_dir = '%s/embedding' % output_path
-    os.makedirs(embedding_dir, exist_ok=True)
-
-    # Predict
-
-    net_mean.eval()
-    net_diff.eval()
-    fmap_block_mean = []
-    input_block_mean = []
-
-    def forward_hook_mean(module, data_input, data_output):
-        fmap_block_mean.append(data_output)
-        input_block_mean.append(data_input)
-
-    net_mean.conv_last1.register_forward_hook(forward_hook_mean)
-
-    fmap_block_diff = []
-    input_block_diff = []
-
-    def forward_hook_diff(module, data_input, data_output):
-        fmap_block_diff.append(data_output)
-        input_block_diff.append(data_input)
-
-    net_diff.conv_last.register_forward_hook(forward_hook_diff)
-
-    fn = '%s/splice_site_output.txt' % output_path
-
-    print('Predicting...')
     
-    with torch.no_grad():
+    for sample in rbp_dict.keys():
+    
+        dataset = IsoDataSet_splicesite(splice_input, {k:v for k in rbp_dict.keys() if k == sample}, genome)
+        dataloader = DataLoader(dataset, shuffle=False, batch_size=batch_size, collate_fn=lambda x:x, pin_memory=True)
+        print('%s: Splice site data loaded' % sample)
 
-        embedding_dict = {}
+        embedding_dir = '%s/embedding' % output_path
+        os.makedirs(embedding_dir, exist_ok=True)
 
-        for data in dataloader:
+        # Predict
 
-            idx = [i[0] for i in data]
-            X = torch.stack([i[1] for i in data]).transpose(1, 2).float().to(device)
-            label_a = [i[2] for i in data]
-            label_d = [i[3] for i in data]
-            labels = ['a' if label_a[i] == 1 else 'd' for i in range(len(label_a))]
-            rbp  = torch.stack([i[5] for i in data]).float().to(device)
+        net_mean.eval()
+        net_diff.eval()
+        fmap_block_mean = []
+        input_block_mean = []
 
-            pred_mean = net_mean(X)
-            mean_input = torch.stack([input_block_mean[0][0][i].squeeze().detach() for i in range(len(idx))])
-            input_block_mean = []
-            fmap_block_mean = []
+        def forward_hook_mean(module, data_input, data_output):
+            fmap_block_mean.append(data_output)
+            input_block_mean.append(data_input)
 
-            pred_diff = net_diff(X, rbp, mean_input)
-            for i in range(len(idx)):
-                with open(fn, 'a+') as f:
-                    clf_prd = pred_diff[2][i].cpu().numpy()
-                    clf_prd_softmax = pred_diff[2][i].cpu().softmax(0).numpy()
-                    if idx[i].split('|')[2] == 'a':
-                        reg_value = np.insert(clf_prd, 0, float(pred_diff[0][i]))
-                    else:
-                        reg_value = np.insert(clf_prd, 0, float(pred_diff[1][i]))
-                    print(
-                        idx[i], 
-                        labels[i], 
-                        '%.3f' % float(pred_mean[0][i].sigmoid()), 
-                        '%.3f' % float(pred_mean[1][i].sigmoid()), 
-                        '%.3f' % float(pred_mean[2][i][0]), 
-                        '%.3f' % float(pred_mean[2][i][1]), 
-                        '%.3f' % float(pred_diff[0][i]), 
-                        '%.3f' % float(pred_diff[1][i]), 
-                        '%.3f' % clf_prd_softmax[0], 
-                        '%.3f' % clf_prd_softmax[1], 
-                        '%.3f' % clf_prd_softmax[2], 
-                        file=f, 
-                        sep='\t'
-                        )
-                embedding_dict[idx[i]] = np.hstack([input_block_diff[0][0][i].squeeze().detach().cpu().numpy(), reg_value])
+        net_mean.conv_last1.register_forward_hook(forward_hook_mean)
 
-            input_block_diff = []
-            fmap_block_diff = []
+        fmap_block_diff = []
+        input_block_diff = []
 
-        with open('%s/embedding.pickle' % (embedding_dir), 'wb') as fo:
-            pickle.dump(embedding_dict, fo)
+        def forward_hook_diff(module, data_input, data_output):
+            fmap_block_diff.append(data_output)
+            input_block_diff.append(data_input)
+
+        net_diff.conv_last.register_forward_hook(forward_hook_diff)
+
+        fn = '%s/splice_site_output.txt' % output_path
+
+        
+        with torch.no_grad():
+
+            embedding_dict = {}
+
+            for data in dataloader:
+
+                idx = [i[0] for i in data]
+                X = torch.stack([i[1] for i in data]).transpose(1, 2).float().to(device)
+                label_a = [i[2] for i in data]
+                label_d = [i[3] for i in data]
+                labels = ['a' if label_a[i] == 1 else 'd' for i in range(len(label_a))]
+                rbp  = torch.stack([i[5] for i in data]).float().to(device)
+
+                pred_mean = net_mean(X)
+                mean_input = torch.stack([input_block_mean[0][0][i].squeeze().detach() for i in range(len(idx))])
+                input_block_mean = []
+                fmap_block_mean = []
+
+                pred_diff = net_diff(X, rbp, mean_input)
+                for i in range(len(idx)):
+                    with open(fn, 'a+') as f:
+                        clf_prd = pred_diff[2][i].cpu().numpy()
+                        clf_prd_softmax = pred_diff[2][i].cpu().softmax(0).numpy()
+                        if idx[i].split('|')[2] == 'a':
+                            reg_value = np.insert(clf_prd, 0, float(pred_diff[0][i]))
+                        else:
+                            reg_value = np.insert(clf_prd, 0, float(pred_diff[1][i]))
+                        print(
+                            idx[i], 
+                            labels[i], 
+                            '%.3f' % float(pred_mean[0][i].sigmoid()), 
+                            '%.3f' % float(pred_mean[1][i].sigmoid()), 
+                            '%.3f' % float(pred_mean[2][i][0]), 
+                            '%.3f' % float(pred_mean[2][i][1]), 
+                            '%.3f' % float(pred_diff[0][i]), 
+                            '%.3f' % float(pred_diff[1][i]), 
+                            '%.3f' % clf_prd_softmax[0], 
+                            '%.3f' % clf_prd_softmax[1], 
+                            '%.3f' % clf_prd_softmax[2], 
+                            file=f, 
+                            sep='\t'
+                            )
+                    embedding_dict[idx[i]] = np.hstack([input_block_diff[0][0][i].squeeze().detach().cpu().numpy(), reg_value])
+
+                input_block_diff = []
+                fmap_block_diff = []
+
+            if ssonly:
+                continue
+            with open('%s/%s_embedding.pickle' % (sample, embedding_dir), 'wb') as fo:
+                pickle.dump(embedding_dict, fo)
+        print('%s: Splice site strength prediction finished.' % sample)
+
+    if ssonly:
+        return()
 
     # =========
     # Transcript model
@@ -353,43 +362,47 @@ def HELIX_predict():
     
     embedding_dir = '%s/embedding' % output_path
     log_fn_res = '%s/tx_output.txt' % output_path
-    embeddings = pickle.load(open('%s/embedding.pickle' % (embedding_dir), 'rb'))
-    dataset = IsoDataSet_transcript(tx_input, rbp_dict, embeddings, genome, key_mode='complete')
-    print('Transcript data loaded')
     
-    # Prediction
+    for sample in rbp_dict.keys():
+    
+        embeddings = pickle.load(open('%s/%s_embedding.pickle' % (sample, embedding_dir), 'rb'))
+        dataset = IsoDataSet_transcript(tx_input, {k:v for k in rbp_dict.keys() if k == sample}, embeddings, genome, key_mode='complete')
+        print('%s: Transcript data loaded' % sample)
+        
+        # Prediction
 
-    print('Predicting...')
-    batch_size = batchsizet
+        batch_size = batchsizet
 
-    dataloader = DataLoader(dataset, shuffle=True, batch_size=batch_size, collate_fn=lambda x:x, pin_memory=True)
+        dataloader = DataLoader(dataset, shuffle=True, batch_size=batch_size, collate_fn=lambda x:x, pin_memory=True)
 
-    net.eval()
-    batch = 0
+        net.eval()
+        batch = 0
 
-    with torch.no_grad():
+        with torch.no_grad():
 
-        for data in dataloader:
+            for data in dataloader:
 
-            batch += 1
+                batch += 1
 
-            tss_seq = torch.concat([torch.stack(i[0]).transpose(1, 2).float().to(device) for i in data], axis=0) # [(NTSS, 4, L)]
-            tss_len = [len(i[0]) for i in data]
-            tss_len = [sum(tss_len[:i]) for i in range(len(tss_len)+1)]
-            tes_seq = torch.concat([torch.stack(i[1]).transpose(1, 2).float().to(device) for i in data], axis=0)
-            tes_len = [len(i[1]) for i in data]
-            tes_len = [sum(tes_len[:i]) for i in range(len(tes_len)+1)]
-            embeddings = [i[3].float().to(device) for i in data]
-            rbps = [i[2].float().to(device) for i in data]# (1499,)
-            labels = [torch.tensor(i[4]).to(device) for i in data]
-            prop = torch.tensor([i[5] for i in data]).float().to(device)
-            tp_order = [i[7] for i in data]
-            idx = [i[6] for i in data]
-            pred = net(tss_seq, tss_len, tes_seq, tes_len, embeddings, rbps, labels, tp_order, device).squeeze(1)
-            
-            with open(log_fn_res, 'a+') as f:
-                for i in range(len(prop)):
-                    print(idx[i], pred[i].cpu().detach().numpy(), sep='\t', file=f)
+                tss_seq = torch.concat([torch.stack(i[0]).transpose(1, 2).float().to(device) for i in data], axis=0) # [(NTSS, 4, L)]
+                tss_len = [len(i[0]) for i in data]
+                tss_len = [sum(tss_len[:i]) for i in range(len(tss_len)+1)]
+                tes_seq = torch.concat([torch.stack(i[1]).transpose(1, 2).float().to(device) for i in data], axis=0)
+                tes_len = [len(i[1]) for i in data]
+                tes_len = [sum(tes_len[:i]) for i in range(len(tes_len)+1)]
+                embeddings = [i[3].float().to(device) for i in data]
+                rbps = [i[2].float().to(device) for i in data]# (1499,)
+                labels = [torch.tensor(i[4]).to(device) for i in data]
+                prop = torch.tensor([i[5] for i in data]).float().to(device)
+                tp_order = [i[7] for i in data]
+                idx = [i[6] for i in data]
+                pred = net(tss_seq, tss_len, tes_seq, tes_len, embeddings, rbps, labels, tp_order, device).squeeze(1)
+                
+                with open(log_fn_res, 'a+') as f:
+                    for i in range(len(prop)):
+                        print(idx[i], pred[i].cpu().detach().numpy(), sep='\t', file=f)
+        
+        print('%s: isoform usage prediction finished.' % sample)
 
 def main():
     HELIX_predict()
