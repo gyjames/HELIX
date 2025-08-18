@@ -23,7 +23,8 @@ pip install pandas numpy pyfaidx
 
 **Step 1.** Generate input files upon transcript annotations / gene expression matrix provided with script/preprocessing.py
 - In the provided gene matrix, each column represents a sample and each row represents a gene. See the format in /demo.
-- The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression .pickle file.
+- The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression in .pickle and .tsv.
+- Information of transcript unit for subsequent isoform usage prediction is in *tss_group.tsv*. 
 - For customized splice site prediction (not derived from gtf annotation), see the input file format in /demo.
 
 Splice site input file format:
