@@ -173,6 +173,7 @@ def extend_genenames(sc_df, genes):
     sc_df.index = [i.split('.')[0] for i in sc_df.index]
     ref_df = pd.DataFrame({'ref':0}, index=genes)
     sc_df = pd.merge(left=ref_df, left_index=True, right=sc_df, right_index=True, how='left')
+    sc_df = sc_df.loc[~(sc_df.index.duplicated())]
     sc_df = sc_df.fillna(0)
     sc_df = sc_df[sc_samples]
     return sc_df

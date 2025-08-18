@@ -202,7 +202,7 @@ def get_arg():
 
     parser = ap.ArgumentParser()
     parser.add_argument('-ds', '--ssinput', required=True, action='store', help='Input for splice site model.')
-    parser.add_argument('-dt', '--txinput', required=True, action='store', help='Input for transcript model.')
+    parser.add_argument('-dt', '--txinput', required=False, action='store', default='', help='Input for transcript model.')
     parser.add_argument('-rbp', '--rbpinput', required=True, action='store', help='Normalized RBP path.')
     parser.add_argument('-o', '--out', required=True, action='store', help='Output directory.')
     parser.add_argument('-g', '--genome', required=True, action='store', help='Reference genome path.')
@@ -227,6 +227,7 @@ def HELIX_predict():
     batchsizes = args.batchsizes
     batchsizet = args.batchsizet
     genome = args.genome
+    ssonly = args.ssonly
 
     # ================
     # Splice site model
@@ -258,7 +259,7 @@ def HELIX_predict():
     
     for sample in rbp_dict.keys():
     
-        dataset = IsoDataSet_splicesite(splice_input, {k:v for k in rbp_dict.keys() if k == sample}, genome)
+        dataset = IsoDataSet_splicesite(splice_input, {k:rbp_dict[k] for k in rbp_dict.keys() if k == sample}, genome)
         dataloader = DataLoader(dataset, shuffle=False, batch_size=batch_size, collate_fn=lambda x:x, pin_memory=True)
         print('%s: Splice site data loaded' % sample)
 
@@ -339,7 +340,7 @@ def HELIX_predict():
 
             if ssonly:
                 continue
-            with open('%s/%s_embedding.pickle' % (sample, embedding_dir), 'wb') as fo:
+            with open('%s/%s_embedding.pickle' % (embedding_dir, sample), 'wb') as fo:
                 pickle.dump(embedding_dict, fo)
         print('%s: Splice site strength prediction finished.' % sample)
 
@@ -365,8 +366,8 @@ def HELIX_predict():
     
     for sample in rbp_dict.keys():
     
-        embeddings = pickle.load(open('%s/%s_embedding.pickle' % (sample, embedding_dir), 'rb'))
-        dataset = IsoDataSet_transcript(tx_input, {k:v for k in rbp_dict.keys() if k == sample}, embeddings, genome, key_mode='complete')
+        embeddings = pickle.load(open('%s/%s_embedding.pickle' % (embedding_dir, sample), 'rb'))
+        dataset = IsoDataSet_transcript(tx_input, {k:rbp_dict[k] for k in rbp_dict.keys() if k == sample}, embeddings, genome, key_mode='complete')
         print('%s: Transcript data loaded' % sample)
         
         # Prediction
