@@ -50,7 +50,7 @@ python script/preprocessing.py -g annotation.gtf -o out_dir -r gene_tpm.mtx
 - If only splicing strength is needed, use the parameter *--ssonly*
 
 ```
-python HELIX.py -ds demo/splice_site_input.txt -dt demo/tx_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa
+python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa
 ```
 
 See full options below:
@@ -73,6 +73,7 @@ options:
                         Batch size for splice site model prediction. Default 64.
   -bt BATCHSIZET, --batchsizet BATCHSIZET
                         Batch size for transcript model prediction. Default 32.
+  --ssonly              Only predict splicing strength.
 
 ```
 
