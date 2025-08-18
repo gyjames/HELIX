@@ -65,8 +65,8 @@ def gtf_process(gtf, sample_list, out_d):
                 else:
                     gtf_dict_long_t[k]['t'][t] = tv
 
-    with open('%s/gtf_dict.pickle' % (out_d), 'wb') as f:
-        pickle.dump(gtf_dict_long_t, f)
+    # with open('%s/gtf_dict.pickle' % (out_d), 'wb') as f:
+        # pickle.dump(gtf_dict_long_t, f)
 
     return gtf_dict_long_t
 
@@ -225,14 +225,14 @@ expr_sc_qn = quantile_normalization(expr_sc, norm_mat['ref_mean'])
 expr_sc_qn = expr_sc_qn.loc[norm_mat['min_value'].index]
 expr_sc_qn_mm = min_max_normalization(expr_sc_qn, norm_mat['min_value'], norm_mat['max_value'])
 expr_sc_qn_mm = expr_sc_qn_mm.loc[norm_mat['min_value'].index]
-expr_sc_qn_mm.to_csv('%s/rbp_expr_qn_mm_rbp.tsv' % out_d, sep='\t')
+expr_sc_qn_mm.to_csv('%s/rbp.tsv' % out_d, sep='\t')
 
 expr_dict = {}
 clusters = expr_sc_qn_mm.columns
 for cluster in clusters:
     expr_dict[cluster] = np.asarray(expr_sc_qn_mm[cluster])
 
-with open('%s/rbp_expr_qn_mm_rbp.pickle' % out_d, 'wb') as f:
+with open('%s/rbp.pickle' % out_d, 'wb') as f:
     pickle.dump(expr_dict, f)
 
 # generate splice site / transcript model input
