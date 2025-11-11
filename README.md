@@ -93,3 +93,8 @@ options:
 
 - Output of splice site model has 11 columns: splice site index, splice site type(derived from gtf annotation), probability of being acceptor, probability of being donor, acceptor splicing strength (baseline), donor splicing strength (baseline), acceptor splicing regulatory level, donor splicing regulatory level, probability of no regulation, probability of upregulation, probability of downregulation
 - Output of transcript model has 2 columns: transcript index, isoform usage
+
+## Changelog
+
+[v1.1] 2025-11-11
+- Fix: fix some bugs.
