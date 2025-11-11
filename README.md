@@ -59,6 +59,11 @@ python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rb
 python HELIX.py -ds demo/splice_site_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --ssonly
 ```
 
+- When predicting splice with single cell RNA-seq data (10X), use the parameter *--sc*
+```
+python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --sc
+```
+
 See full options below:
 ```
 options:
@@ -80,6 +85,7 @@ options:
   -bt BATCHSIZET, --batchsizet BATCHSIZET
                         Batch size for transcript model prediction. Default 32.
   --ssonly              Only predict splicing strength.
+  --sc                  Predict splicing strength and isoform usage with RBP expression derived from 10X data.
 
 ```
 
@@ -87,3 +93,8 @@ options:
 
 - Output of splice site model has 11 columns: splice site index, splice site type(derived from gtf annotation), probability of being acceptor, probability of being donor, acceptor splicing strength (baseline), donor splicing strength (baseline), acceptor splicing regulatory level, donor splicing regulatory level, probability of no regulation, probability of upregulation, probability of downregulation
 - Output of transcript model has 2 columns: transcript index, isoform usage
+
+## Changelog
+
+[v1.1] 2025-11-11
+- Fix: fix some bugs.
