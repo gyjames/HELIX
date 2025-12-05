@@ -6,24 +6,19 @@
 
 - HELIX is a deep learning model constructed based on PyTorch 2.1.0 and Python 3.11.5.
 
-- Python and pip installation:
+- We recommend you install dependencies using conda:
 ```
-conda create -n helix python=3.11.5
+conda create -n helix python=3.11.5 pytorch pandas numpy pyfaidx
 ```
-- If you are running HELIX on GPU, **CUDA** is required before pytorch installation.
-- Pytorch installation: https://pytorch.org/get-started/locally/
+- If you are running HELIX on GPU, **CUDA** is required.
 
-- Other dependencies can be installed via conda or pip:
-
-```
-pip install pandas numpy pyfaidx
 ```
 - It takes 2-10 seconds to finish prediction for ~100 transcripts (depends on the GPU).
 - It takes 7-10 days to train the whole model on one GTX 3080.
 
 ## Usage
 
-**Step 1.** Generate input files upon transcript annotations / gene expression matrix provided with script/preprocessing.py
+**Input format** Generate input files upon transcript annotations / gene expression matrix provided with script/preprocessing.py
 - In the provided gene matrix, each column represents a sample and each row represents a gene. See the format in /demo.
 - The preprocessing step will generate two input txt files for splice site model and transcript model, respectively, as well as a normalized rbp expression in .pickle and .tsv.
 - Information of transcript unit for subsequent isoform usage prediction is in *tss_group.tsv*. 
