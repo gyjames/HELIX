@@ -12,9 +12,20 @@ conda create -n helix python=3.11.5 pytorch pandas numpy pyfaidx
 ```
 - If you are running HELIX on GPU, **CUDA** is required.
 
-```
 - It takes 2-10 seconds to finish prediction for ~100 transcripts (depends on the GPU).
 - It takes 7-10 days to train the whole model on one GTX 3080.
+
+## Input format
+
+### RBP expression
+
+- RBP expression file is a gene expression matrix in TPM. Each row represents a gene, each column represents a sample. Genes are required to use Ensembl gene identifiers (ENSG format).
+
+### Splice sites list
+
+### 
+
+
 
 ## Usage
 
