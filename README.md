@@ -18,6 +18,8 @@ conda create -n helix python=3.11.5
 ```
 pip install pandas numpy pyfaidx
 ```
+- It takes 2-10 seconds to finish prediction for ~100 transcripts (depends on the GPU).
+- It takes 7-10 days to train the whole model on one GTX 3080.
 
 ## Usage
 
