@@ -6,8 +6,8 @@
 
 - HELIX give probabilities splice sites being acceptor or donor, splicing strength, splicing regulatory level and probability of being upregulated/downregulated under given RBP expression condition
 - HELIX give isoform usage within predefined transcription units (transcripts using proximal transcription start sites)
-- It takes 5-20s giving results of 100 isoform
-- It takes 7-10 days to train HELIX
+- It takes 2-10 seconds to finish prediction for ~100 transcripts (depends on the GPU).
+- It takes 7-10 days to train the whole model on one GTX 3080.
 
 ## Installation
 
@@ -19,8 +19,8 @@ conda create -n helix python=3.11.5 pytorch pandas numpy pyfaidx
 ```
 - If you are running HELIX on GPU, **CUDA** is required.
 
-- It takes 2-10 seconds to finish prediction for ~100 transcripts (depends on the GPU).
-- It takes 7-10 days to train the whole model on one GTX 3080.
+
+
 
 ## Input format
 
