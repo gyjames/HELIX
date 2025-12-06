@@ -6,6 +6,8 @@
 
 - HELIX give probabilities splice sites being acceptor or donor, splicing strength, splicing regulatory level and probability of being upregulated/downregulated under given RBP expression condition
 - HELIX give isoform usage within predefined transcription units (transcripts using proximal transcription start sites)
+- It takes 5-20s giving results of 100 isoform
+- It takes 7-10 days to train HELIX
 
 ## Installation
 
