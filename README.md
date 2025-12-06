@@ -2,6 +2,11 @@
 
 **HELIX** is a deep learning model that integrates pre-mRNA sequence and RNA-binding protein (RBP) expression profiles to predict tissue- and condition-specific splicing patterns and transcript isoform usage.
 
+## Features
+
+- HELIX give probabilities splice sites being acceptor or donor, splicing strength, splicing regulatory level and probability of being upregulated/downregulated under given RBP expression condition
+- HELIX give isoform usage within predefined transcription units (transcripts using proximal transcription start sites)
+
 ## Installation
 
 - HELIX is a deep learning model constructed based on PyTorch 2.1.0 and Python 3.11.5.
