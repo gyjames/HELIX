@@ -198,12 +198,63 @@ class IsoDataSet_splicesite(Dataset):
         
         return self.data_dict[event_id]
 
+def extend_genenames(sc_df, genes):
+    sc_samples = sc_df.columns
+    sc_df.index = [i.split('.')[0] for i in sc_df.index]
+    ref_df = pd.DataFrame({'ref':0}, index=genes)
+    sc_df = pd.merge(left=ref_df, left_index=True, right=sc_df, right_index=True, how='left')
+    sc_df = sc_df.loc[~(sc_df.index.duplicated())]
+    sc_df = sc_df.fillna(0)
+    sc_df = sc_df[sc_samples]
+    return sc_df
+
+def quantile_normalization(df, ref_mean):
+
+    expr_bulk_quantiled = []
+    for sample in df.columns:
+        tmp = df[sample].sort_values()
+        new_index = tmp.index
+        new_tmp = pd.Series(ref_mean.values, index=new_index, name=sample)
+        expr_bulk_quantiled.append(new_tmp)
+
+    expr_bulk_quantiled = pd.concat(expr_bulk_quantiled, axis=1)
+    return expr_bulk_quantiled
+
+def min_max_normalization(df, min_value, max_value):
+
+    df = df.T
+    df = (df - min_value)/(max_value - min_value)
+    df = df.T
+    df = df.fillna(0)
+    df[df > 1] = 1
+    df[df < 0] = 0
+    return df
+
+def rbp_proprecessing(expr_fn):
+    expr = pd.read_csv(expr_fn, sep='\t', index_col=0)
+    expr = expr.loc[~expr.index.duplicated(), :]
+
+    with open(resource_filename('HELIX', 'utils/rbp_normalization_material.pickle'), 'rb') as f:
+        norm_mat = pickle.load(f)
+
+    expr_sc = extend_genenames(expr, norm_mat['gene_name'])
+    expr_sc_qn = quantile_normalization(expr_sc, norm_mat['ref_mean'])
+    expr_sc_qn = expr_sc_qn.loc[norm_mat['min_value'].index]
+    expr_sc_qn_mm = min_max_normalization(expr_sc_qn, norm_mat['min_value'], norm_mat['max_value'])
+    expr_sc_qn_mm = expr_sc_qn_mm.loc[norm_mat['min_value'].index]
+
+    expr_dict = {}
+    clusters = expr_sc_qn_mm.columns
+    for cluster in clusters:
+        expr_dict[cluster] = np.asarray(expr_sc_qn_mm[cluster])
+    return expr_dict
+
 def get_arg():
 
     parser = ap.ArgumentParser()
     parser.add_argument('-ds', '--ssinput', required=True, action='store', help='Input for splice site model.')
     parser.add_argument('-dt', '--txinput', required=False, action='store', default='', help='Input for transcript model.')
-    parser.add_argument('-rbp', '--rbpinput', required=True, action='store', help='Normalized RBP path.')
+    parser.add_argument('-rbp', '--rbpinput', required=True, action='store', help='RBP path.')
     parser.add_argument('-o', '--out', required=True, action='store', help='Output directory.')
     parser.add_argument('-g', '--genome', required=True, action='store', help='Reference genome path.')
     parser.add_argument('-d', '--device', required=True, action='store', help='Device (CPU or GPU index)')
@@ -264,7 +315,7 @@ def HELIX_predict():
 
     # Load data
 
-    rbp_dict = pickle.load(open(rbp_path, 'rb'))
+    rbp_dict = rbp_proprecessing(rbp_path)
     batch_size = batchsizes
     
     for sample in rbp_dict.keys():
