@@ -57,19 +57,19 @@ conda create -n helix python=3.11.5 pytorch pandas numpy pyfaidx
 - Predict splicing strength and isoform usage
 
 ```
-python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa
+python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/gene_expr_three_samples_TPM.tsv -o outputdir -d 'cuda:0' -g reference.fa
 ```
 
 - Predict splicing strength only
 
 ```
-python HELIX.py -ds demo/splice_site_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --ssonly
+python HELIX.py -ds demo/splice_site_input.txt -rbp demo/gene_expr_three_samples_TPM.tsv -o outputdir -d 'cuda:0' -g reference.fa --ssonly
 ```
 
 - When predicting splice with single cell RNA-seq data (10X), use the parameter *--sc*
 
 ```
-python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/rbp.pickle -o outputdir -d 'cuda:0' -g reference.fa --sc
+python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/gene_expr_three_samples_TPM.tsv -o outputdir -d 'cuda:0' -g reference.fa --sc
 ```
 
 See full options below:
