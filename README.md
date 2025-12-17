@@ -34,9 +34,11 @@ conda create -n helix python=3.11.5 pytorch pandas numpy pyfaidx
 
 | Identifier | Chromosome | Strand | Gene | Splice site type | Location | Sample | Label1 | Label2 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1	| chr1	| +	| ENSG00000237491.10_10	| a	| 728262	| Adipose_Subcutaneous	| 0	| 0 |
+| chr1\|+\|ENSG00000237491.10_10\|728262\|Adipose_Subcutaneous	| chr1	| +	| ENSG00000237491.10_10	| a	| 728262	| Adipose_Subcutaneous	| 0	| 0 |
 
 - Each line represents a splicing event to predict
+- The splice site identifier must be the format "chr|strand|gene|site|sample"
+- Each splice site in transcript model predict input should be list here for embedding generation
   
 
 ### Transcript model input
