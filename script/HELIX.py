@@ -315,12 +315,17 @@ def HELIX_predict():
 
     # Load data
 
-    rbp_dict = rbp_proprecessing(rbp_path)
+    if rbp_path.endswith('pickle'):
+        rbp_dict = pickle.load(open(rbp_path, 'rb'))
+    else:
+        rbp_dict = rbp_proprecessing(rbp_path)
     batch_size = batchsizes
     
     for sample in rbp_dict.keys():
     
         dataset = IsoDataSet_splicesite(splice_input, {k:rbp_dict[k] for k in rbp_dict.keys() if k == sample}, genome)
+        if len(dataset) == 0:
+            continue
         dataloader = DataLoader(dataset, shuffle=False, batch_size=batch_size, collate_fn=lambda x:x, pin_memory=True)
         print('%s: Splice site data loaded' % sample)
 
@@ -431,9 +436,12 @@ def HELIX_predict():
     log_fn_res = '%s/tx_output.txt' % output_path
     
     for sample in rbp_dict.keys():
-    
+        if not os.path.exists('%s/%s_embedding.pickle' % (embedding_dir, sample)):
+            continue
         embeddings = pickle.load(open('%s/%s_embedding.pickle' % (embedding_dir, sample), 'rb'))
         dataset = IsoDataSet_transcript(tx_input, {k:rbp_dict[k] for k in rbp_dict.keys() if k == sample}, embeddings, genome, key_mode='complete')
+        if len(dataset) == 0:
+            continue
         print('%s: Transcript data loaded' % sample)
         
         # Prediction
