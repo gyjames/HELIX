@@ -57,6 +57,7 @@ conda create -n helix python=3.11.5 pytorch pandas numpy pyfaidx
 
 
 - Predict splicing strength and isoform usage
+- -g is the reference genome path (hg38 used here)
 
 ```
 python HELIX.py -ds demo/splice_site_input.txt -dt demo/transcript_input.txt -rbp demo/gene_expr_three_samples_TPM.tsv -o outputdir -d 'cuda:0' -g reference.fa
