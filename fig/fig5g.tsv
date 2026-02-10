@@ -1,0 +1,1048 @@
+rbp	RNA.Tumor.Sample.Barcode	Sex	Age.group	Tumour.Grade	Tumour.Stage	Hypermutation.status	MSI.Status	MSI.Sensor2.Score	CMS.Tumour	iCMS.Tumour	CRPS.Tumour	Tumour.Hypoxia.Buffa.Score	Recurrence.free.survival.days	Overall.survival.days
+1296	CRC.SW.UM086.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.4	CMS2	iCMS2	CRPS3	11	3048	3048
+1187	CRC.SW.UM016.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	1.03	CMS2	iCMS2	CRPS3	-9	3251	3251
+1171	CRC.SW.UM132.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.23	CMS2	iCMS2	CRPS3	-29	796	796
+1142	CRC.SW.UM008.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	1.05	CMS2	iCMS2	CRPS3	-13	3956	3956
+1040	CRC.SW.UM113.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	1.45	CMS3	iCMS3	CRPS5	-17	2788	2788
+1003	CRC.SW.U3077.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	1.05	CMS2	iCMS2	CRPS3	13	5565	5565
+923	CRC.SW.U3117.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.54	CMS3	iCMS2	CRPS3	-1	232	1165
+886	CRC.SW.UM084.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.3	CMS2	iCMS2	CRPS3	-5	471	3067
+877	CRC.SW.UM093.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS3	-15	2935	2935
+844	CRC.SW.UM062.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.45	Undefined	iCMS2	CRPS3	-5	2161	2161
+819	CRC.SW.UM112.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.66	CMS2	iCMS2	CRPS3	-15	2798	2798
+793	CRC.SW.UM020.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.22	CMS2	iCMS2	CRPS3	3	2823	2823
+769	CRC.SW.UM097.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS2	iCMS2	CRPS3	-5	2901	2901
+768	CRC.SW.UM124.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	1.13	CMS2	iCMS2	CRPS3	-9	1376	1376
+757	CRC.SW.U0436.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.44	CMS2	iCMS2	CRPS3	-3	Not_Applicable	2072
+691	CRC.SW.U3049.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.73	CMS2	iCMS2	CRPS1	15	720	720
+686	CRC.SW.U3084.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.31	CMS2	iCMS2	CRPS2	17	4069	4069
+678	CRC.SW.U0103.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.68	CMS2	iCMS2	CRPS2	29	1714	1714
+661	CRC.SW.U3063.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.41	CMS4	iCMS2	CRPS4	9	3488	3488
+651	CRC.SW.UM001.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	2.68	CMS2	iCMS2	CRPS3	-19	3295	3295
+645	CRC.SW.UM033.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.59	Undefined	iCMS2	CRPS3	9	3077	3077
+643	CRC.SW.UM127.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.67	CMS3	iCMS3	CRPS5	-45	2325	2325
+642	CRC.SW.UM089.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.28	CMS2	iCMS2	CRPS3	-31	2993	2993
+641	CRC.SW.UM119.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.81	CMS3	iCMS3	CRPS5	13	2592	2592
+640	CRC.SW.U3155.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.96	CMS2	iCMS2	CRPS2	13	Not_Applicable	5928
+624	CRC.SW.UM135.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.29	CMS2	iCMS2	CRPS3	-29	2168	2168
+623	CRC.SW.UM126.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.49	CMS3	iCMS3	CRPS5	9	2329	2329
+612	CRC.SW.U2995.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.58	CMS2	iCMS2	CRPS2	29	1658	1658
+598	CRC.SW.UM087.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.54	Undefined	Undefined	CRPS3	17	3026	3026
+588	CRC.SW.UM144.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS3	15	2013	2013
+586	CRC.SW.UM172.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS3	-7	1461	1461
+573	CRC.SW.U3115.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.54	CMS2	iCMS2	CRPS3	-7	2786	2786
+572	CRC.SW.UM139.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS3	-25	2105	2105
+569	CRC.SW.U0030.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.31	CMS2	iCMS2	CRPS2	-5	987	987
+563	CRC.SW.U3067.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSI	3.5	Undefined	iCMS2	CRPS4	21	135	270
+547	CRC.SW.UM147.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.04	CMS2	iCMS2	CRPS2	-3	1852	1852
+546	CRC.SW.U0427.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.28	CMS2	iCMS2	CRPS3	27	2858	2858
+542	CRC.SW.UM149.T	Male	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.18	Undefined	iCMS3	CRPS1	25	Not_Applicable	311
+528	CRC.SW.UM090.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.63	CMS2	iCMS2	CRPS3	-9	2768	2768
+524	CRC.SW.U3132.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	CMS4	iCMS2	CRPS4	33	2670	2670
+521	CRC.SW.UM015.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.83	CMS2	iCMS2	CRPS3	-23	Not_Applicable	914
+519	CRC.SW.UM010.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.41	CMS2	iCMS3	CRPS3	-1	779	779
+509	CRC.SW.U3091.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.35	CMS2	iCMS2	CRPS3	3	1338	2959
+497	CRC.SW.U2777.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.76	CMS2	iCMS2	CRPS3	-15	1946	1946
+496	CRC.SW.UM133.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.65	CMS2	iCMS2	CRPS3	13	2195	2195
+493	CRC.SW.UM078.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.06	CMS2	iCMS2	CRPS3	-9	Not_Applicable	1845
+484	CRC.SW.UM103.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.73	CMS2	iCMS2	CRPS3	7	2922	2922
+469	CRC.SW.U0652.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.25	CMS2	iCMS2	CRPS3	15	2984	2984
+466	CRC.SW.U3085.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	2.32	CMS2	iCMS2	CRPS2	13	4131	4131
+463	CRC.SW.U0695.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.36	CMS2	iCMS2	CRPS2	9	1766	1766
+463	CRC.SW.UM076.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.58	CMS2	iCMS2	CRPS3	23	1778	1778
+455	CRC.SW.U2771.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.39	CMS2	iCMS2	CRPS3	23	1954	1954
+451	CRC.SW.UM116.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	1.21	CMS3	iCMS2	CRPS3	1	2643	2643
+443	CRC.SW.U0248.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.78	Undefined	iCMS2	CRPS3	-41	1983	1983
+430	CRC.SW.UM096.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.66	CMS2	iCMS2	CRPS3	-9	2908	2908
+427	CRC.SW.U3072.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.27	CMS2	iCMS2	CRPS2	1	Not_Applicable	1225
+426	CRC.SW.UM052.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.79	CMS2	iCMS2	CRPS3	-11	2439	2439
+413	CRC.SW.U3218.T	Male	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	17	3223	3223
+413	CRC.SW.UM159.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSS	1.17	CMS2	iCMS2	CRPS3	-23	1226	1226
+393	CRC.SW.U0555.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.53	CMS2	iCMS2	CRPS3	-3	3708	3708
+392	CRC.SW.UM040.T	Male	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	1.14	CMS3	iCMS3	CRPS5	-27	409	1538
+380	CRC.SW.U2953.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.53	CMS2	iCMS2	CRPS3	1	1708	1708
+376	CRC.SW.U0538.T	Female	66-79		Stage III	Non-Hypermutated	MSS	0.11	CMS2	iCMS2	CRPS3	17	2973	2973
+375	CRC.SW.UM012.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.58	CMS2	iCMS2	CRPS3	-15	3487	3487
+368	CRC.SW.UM107.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.93	CMS2	iCMS2	CRPS3	-15	2831	2831
+364	CRC.SW.UM142.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.18	CMS3	iCMS3	CRPS5	-15	2418	2418
+361	CRC.SW.UM105.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.97	CMS2	iCMS2	CRPS3	-25	2843	2843
+356	CRC.SW.UM021.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.23	CMS2	iCMS2	CRPS3	-9	2414	2414
+353	CRC.SW.U3201.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	Undefined	iCMS2	CRPS2	-5		NA
+351	CRC.SW.U0074.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.12	Undefined	iCMS2	CRPS3	-33	1438	1438
+345	CRC.SW.UM128.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.23	CMS2	iCMS2	CRPS3	-13	1292	1292
+339	CRC.SW.UM046.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.97	CMS2	iCMS2	CRPS3	-19	2489	2489
+336	CRC.SW.U3265.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-9	7	7
+333	CRC.SW.UM029.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.71	CMS2	iCMS2	CRPS3	-39	2226	2226
+333	CRC.SW.U3161.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	7	6932	6932
+325	CRC.SW.UM011.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-17	3487	3487
+323	CRC.SW.U0394.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS1	31	2136	2136
+319	CRC.SW.UM106.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.81	CMS2	iCMS2	CRPS3	-5	2833	2833
+318	CRC.SW.U3120.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.29	CMS2	iCMS2	CRPS2	15	3528	3528
+315	CRC.SW.U3164.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	1.81	Undefined	iCMS2	CRPS4	23	101	228
+313	CRC.SW.UM013.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.57	CMS3	iCMS3	CRPS5	3	3470	3470
+312	CRC.SW.U1369.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSI	4.29	CMS2	iCMS2	CRPS3	3	3269	3269
+309	CRC.SW.U0999.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.6	CMS2	iCMS2	CRPS3	-5	425	908
+301	CRC.SW.U3089.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.55	CMS2	iCMS2	CRPS3	15	5909	5909
+297	CRC.SW.U3134.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.29	CMS4	iCMS2	CRPS2	31	3745	3745
+295	CRC.SW.U3137.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.14	CMS2	iCMS2	CRPS2	3	610	1031
+287	CRC.SW.U1447.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.78	CMS2	iCMS2	CRPS3	-3	2155	2155
+285	CRC.SW.U3055.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.35	CMS3	Undefined	CRPS3	7	4085	4085
+280	CRC.SW.U0468.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.69	CMS2	iCMS2	CRPS3	-1	1059	3586
+275	CRC.SW.UM109.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.45	Undefined	iCMS3	CRPS5	-25	1482	1482
+274	CRC.SW.UM095.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	31	Not_Applicable	1028
+267	CRC.SW.UM065.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.24	CMS2	iCMS2	CRPS3	-9	2271	2271
+267	CRC.SW.UM123.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0.7	CMS4	iCMS3	CRPS4	23	Not_Applicable	437
+264	CRC.SW.U1483.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.27	CMS2	iCMS2	CRPS3	3	2759	2759
+260	CRC.SW.U3152.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	21	379	1255
+259	CRC.SW.U0181.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.9	Undefined	iCMS2	CRPS2	9	4790	4790
+258	CRC.SW.UM094.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	34.94	CMS3	iCMS3	CRPS1	19	2930	2930
+255	CRC.SW.U3162.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.07	CMS4	iCMS2	CRPS4	13	6526	6526
+254	CRC.SW.U1104.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.57	CMS3	iCMS3	CRPS5	-7	503	1507
+253	CRC.SW.U3068.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.3	CMS3	Undefined	CRPS5	5	1810	1810
+252	CRC.SW.U0340.T	Female	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.14	CMS4	iCMS3	CRPS4	25	Not_Applicable	438
+251	CRC.SW.U0413.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.13	CMS2	iCMS2	CRPS2	-3	2395	2395
+251	CRC.SW.UM069.T	Female	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	19	Not_Applicable	2233
+247	CRC.SW.U3082.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.6	CMS2	iCMS2	CRPS2	-1	1805	1805
+246	CRC.SW.UM035.T	Male	66-79	Low Grade	Stage III	Hypermutated	MSI	48.87	CMS3	iCMS3	CRPS1	-7	2651	2651
+245	CRC.SW.UM009.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS4	iCMS2	CRPS4	3	405	905
+241	CRC.SW.UM099.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	39.24	CMS1	iCMS3	CRPS1	19	2887	2887
+235	CRC.SW.U3127.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.37	CMS2	iCMS2	CRPS2	5	5894	5894
+235	CRC.SW.U0241.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.04	Undefined	iCMS2	CRPS2	7	2217	2217
+234	CRC.SW.U3107.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	1.84	Undefined	iCMS2	CRPS2	21	Not_Applicable	200
+231	CRC.SW.U3070.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.56	Undefined	iCMS2	CRPS2	29	Not_Applicable	1754
+230	CRC.SW.U3136.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.23	CMS2	iCMS2	CRPS2	21	5124	5124
+229	CRC.SW.UM081.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.58	CMS2	iCMS2	CRPS3	3	1718	1718
+226	CRC.SW.UM104.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	44.43	CMS3	iCMS3	CRPS1	13	2847	2847
+225	CRC.SW.U3238.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.37	CMS3	iCMS3	CRPS1	15	5078	5078
+223	CRC.SW.UM002.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.06	CMS2	iCMS2	CRPS3	-13	4629	4629
+218	CRC.SW.U2959.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.21	CMS3	iCMS3	CRPS1	17	1703	1703
+216	CRC.SW.UM134.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS3	-5	Not_Applicable	933
+215	CRC.SW.UM036.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.57	CMS2	iCMS2	CRPS3	-17	2623	2623
+214	CRC.SW.UM111.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	44.6	CMS1	iCMS3	CRPS1	1	327	414
+214	CRC.SW.U3092.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	11	Not_Applicable	1441
+211	CRC.SW.U2843.T	Female	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	0.87	CMS2	iCMS2	CRPS3	23	1841	1841
+211	CRC.SW.U0384.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.67	CMS2	iCMS2	CRPS3	7	Not_Applicable	1940
+211	CRC.SW.UM083.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.56	CMS2	iCMS2	CRPS3	-11	354	976
+211	CRC.SW.U3110.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.33	Undefined	iCMS2	CRPS2	15	7079	7079
+209	CRC.SW.U3056.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	1	Not_Applicable	973
+208	CRC.SW.U3234.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS3	-23	5504	5504
+207	CRC.SW.U3095.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.9	Undefined	iCMS2	CRPS2	15	3933	3933
+207	CRC.SW.UM125.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.61	CMS2	iCMS2	CRPS3	7	2328	2328
+204	CRC.SW.U0191.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.63	CMS1	Undefined	CRPS1	5	2067	2067
+200	CRC.SW.U3075.T	Male	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	1.95	CMS2	iCMS2	CRPS3	17	601	1777
+196	CRC.SW.UM006.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.37	CMS2	iCMS2	CRPS3	-25	4121	4121
+196	CRC.SW.U3087.T	Female	≤ 65	Low Grade	Stage IV	Hypermutated	MSI	11.54	CMS1	iCMS3	CRPS1	33	Not_Applicable	5294
+194	CRC.SW.U1343.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS3	9	386	4345
+185	CRC.SW.U0169.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	1.91	Undefined	iCMS2	CRPS3	-9	616	616
+182	CRC.SW.U0293.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.49	CMS3	iCMS3	CRPS5	-7	4382	4382
+180	CRC.SW.U3032.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.8	CMS2	iCMS2	CRPS2	21	1526	1526
+178	CRC.SW.U3143.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.66	CMS2	iCMS2	CRPS2	21	6386	6386
+178	CRC.SW.U0108.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.64	CMS2	iCMS2	CRPS3	13	535	535
+175	CRC.SW.U3062.T	Male	≥ 80	High Grade	Stage II	Hypermutated	MSI	36.19	CMS1	iCMS3	CRPS1	27	1193	1259
+174	CRC.SW.U0336.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.7	Undefined	iCMS2	CRPS3	-21	2765	2765
+173	CRC.SW.U3022.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.34	CMS3	iCMS3	CRPS5	-15	1568	1568
+171	CRC.SW.UM018.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS3	7	2872	2872
+171	CRC.SW.UM138.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-11	2117	2117
+170	CRC.SW.UM017.T	Female	≥ 80	High Grade	Stage IV	Hypermutated	MSI	23.63	CMS1	iCMS3	CRPS1	21	Not_Applicable	198
+169	CRC.SW.UM102.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	53.57	CMS1	iCMS3	CRPS1	5	3188	3188
+168	CRC.SW.UM100.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.44	Undefined	iCMS3	CRPS3	-39	294	884
+168	CRC.SW.U3190.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS4	iCMS2	CRPS4	5	6351	6351
+166	CRC.SW.U0458.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.09	CMS3	Undefined	CRPS3	-9	2738	2738
+164	CRC.SW.UM140.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.31	CMS4	iCMS2	CRPS3	-25	2103	2103
+163	CRC.SW.U0406.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.84	CMS2	iCMS2	CRPS3	17	Not_Applicable	778
+163	CRC.SW.U0054.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	29	2038	2316
+163	CRC.SW.U3153.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS2	1	519	519
+160	CRC.SW.U0127.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.91	CMS2	iCMS2	CRPS2	27	3377	3377
+160	CRC.SW.U2764.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS4	33	1966	1966
+160	CRC.SW.UM156.T	Female	66-79	Low Grade	Stage III	Hypermutated	MSS	2.54	CMS3	iCMS3	CRPS5	-29	364	844
+157	CRC.SW.U3111.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.23	CMS4	iCMS2	CRPS2	27	3612	3612
+157	CRC.SW.U0595.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS3	-5	4200	4200
+156	CRC.SW.U2928.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.54	CMS3	iCMS3	CRPS1	25	1730	1730
+156	CRC.SW.U3096.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	27.13	CMS1	Undefined	CRPS1	25	164	895
+155	CRC.SW.U3060.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.27	CMS4	iCMS2	CRPS2	15	6610	6610
+155	CRC.SW.U3171.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS2	19	1498	1498
+154	CRC.SW.U3124.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.23	Undefined	iCMS2	CRPS2	15	1044	5201
+151	CRC.SW.U3150.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-1	Not_Applicable	1618
+151	CRC.SW.U3262.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.24	CMS4	iCMS2	CRPS2	7	5956	5956
+150	CRC.SW.U0366.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.46	CMS3	iCMS3	CRPS5	-27	Not_Applicable	2560
+149	CRC.SW.U2882.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	CMS4	iCMS2	CRPS4	31	1804	1804
+149	CRC.SW.UM165.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.15	CMS3	iCMS3	CRPS5	-37	1531	1531
+148	CRC.SW.UM063.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.52	CMS3	iCMS3	CRPS5	-3	2381	2381
+146	CRC.SW.U0446.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS1	17	2613	2613
+146	CRC.SW.U3074.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.25	CMS4	iCMS2	CRPS4	7	7073	7073
+146	CRC.SW.UM038.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	35.84	CMS1	iCMS3	CRPS1	15	2608	2608
+145	CRC.SW.U3244.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	-11	1563	5497
+144	CRC.SW.U1384.T	Male	≤ 65	Low Grade	Stage III	Hypermutated	MSI	41	CMS1	iCMS3	CRPS3	-17	2984	2984
+144	CRC.SW.U3042.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSS	0.14	Undefined	iCMS2	CRPS2	21	1479	1479
+143	CRC.SW.U0195.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	33.5	CMS2	iCMS2	CRPS1	23	4493	4493
+141	CRC.SW.UM115.T	Female	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0.88	CMS2	iCMS2	CRPS3	-11	2704	2704
+140	CRC.SW.UM003.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	13	4530	4530
+140	CRC.SW.U0328.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.1	CMS2	iCMS2	CRPS3	-3	452	1362
+140	CRC.SW.U2798.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.08	CMS2	iCMS2	CRPS3	3	1918	1918
+137	CRC.SW.U2848.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.25	CMS2	iCMS2	CRPS3	-11	382	1836
+136	CRC.SW.U3169.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.23	CMS4	iCMS2	CRPS2	9	860	1131
+136	CRC.SW.U2891.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS1	iCMS2	CRPS1	17	1786	1786
+135	CRC.SW.UM130.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.09	Undefined	Undefined	CRPS3	-35	353	663
+131	CRC.SW.UM114.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	15.08	CMS1	iCMS3	CRPS1	19	2797	2797
+128	CRC.SW.U3066.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.91	Undefined	iCMS2	CRPS2	7	Not_Applicable	310
+128	CRC.SW.U3081.T	Female	≥ 80	Low Grade	Stage III	Hypermutated	MSI	36.4	CMS1	iCMS3	CRPS1	5	2463	2738
+127	CRC.SW.UM145.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.58	CMS2	iCMS2	CRPS3	7	Not_Applicable	1956
+127	CRC.SW.U0046.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.24	CMS2	iCMS2	CRPS2	7	378	3502
+126	CRC.SW.U0077.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.41	CMS3	Undefined	CRPS5	-1	588	588
+126	CRC.SW.U0180.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.99	CMS2	iCMS2	CRPS2	-7	Not_Applicable	965
+126	CRC.SW.U0512.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.82	Undefined	iCMS2	CRPS3	-1	4215	4215
+124	CRC.SW.U0166.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	30.37	CMS3	iCMS3	CRPS1	9	2428	2428
+123	CRC.SW.UM027.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.44	CMS4	iCMS3	CRPS4	23	109	725
+123	CRC.SW.UM088.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	26.67	CMS1	iCMS3	CRPS1	23	3015	3015
+122	CRC.SW.UM079.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.15	CMS3	iCMS3	CRPS5	-35	1481	1481
+122	CRC.SW.U1264.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.25	CMS2	iCMS2	CRPS3	-5	3248	3248
+122	CRC.SW.U0236.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-7	3507	3507
+120	CRC.SW.U3069.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	29	Not_Applicable	1013
+118	CRC.SW.UM082.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.38	CMS2	iCMS2	CRPS3	-23	3122	3122
+117	CRC.SW.U3065.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.73	CMS4	iCMS2	CRPS2	-1	46	46
+115	CRC.SW.UM098.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-19	2887	2887
+114	CRC.SW.U0426.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	1.26	CMS2	iCMS2	CRPS3	-1	2641	2641
+113	CRC.SW.U3073.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	Undefined	iCMS2	CRPS2	15	887	887
+112	CRC.SW.UM108.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	1.62	CMS3	iCMS3	CRPS5	-37	455	1145
+112	CRC.SW.UM066.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS2	iCMS2	CRPS3	-29	2265	2265
+112	CRC.SW.U0967.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	2.14	CMS2	iCMS2	CRPS3	7	1691	1691
+111	CRC.SW.U0364.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.34	CMS2	iCMS2	CRPS3	-21	Not_Applicable	151
+109	CRC.SW.U0577.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.44	CMS2	iCMS2	CRPS3	3	4139	4139
+107	CRC.SW.U1155.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.81	CMS3	Undefined	CRPS5	5	2966	2966
+106	CRC.SW.U3198.T	Male	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	15	Not_Applicable	7133
+106	CRC.SW.U0212.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.44	CMS2	iCMS2	CRPS3	-15	Not_Applicable	1921
+106	CRC.SW.U2782.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.02	CMS4	iCMS3	CRPS1	17	Not_Applicable	1940
+105	CRC.SW.U0341.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.75	CMS2	iCMS2	CRPS3	-15	2324	2324
+105	CRC.SW.U3129.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.24	CMS2	iCMS2	CRPS2	17	Not_Applicable	473
+102	CRC.SW.UM049.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.04	Undefined	Undefined	CRPS3	-13	2455	2455
+101	CRC.SW.UM045.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	1.14	Undefined	iCMS3	CRPS1	11	526	526
+101	CRC.SW.U0391.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.24	CMS2	iCMS2	CRPS3	23	2844	2844
+101	CRC.SW.UM101.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	29.4	CMS1	iCMS3	CRPS1	9	1640	1640
+100	CRC.SW.U0820.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.33	CMS2	iCMS2	CRPS3	-15	Not_Applicable	622
+98	CRC.SW.UM014.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	36.99	Undefined	iCMS3	CRPS3	-1	3392	3392
+97	CRC.SW.UM007.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	50.46	CMS3	iCMS3	CRPS5	-9	4058	4058
+96	CRC.SW.U0638.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.97	CMS4	iCMS2	CRPS2	11	3466	3466
+95	CRC.SW.UM075.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.33	CMS3	iCMS3	CRPS3	3	1941	1941
+94	CRC.SW.U0095.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.18	CMS2	iCMS2	CRPS3	-15	1034	1034
+94	CRC.SW.U3099.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.52	CMS3	iCMS3	CRPS1	27	6085	6085
+93	CRC.SW.UM091.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.5	CMS3	iCMS3	CRPS5	-25	255	2959
+92	CRC.SW.UM037.T	Male	≥ 80	High Grade	Stage III	Hypermutated	MSI	17.97	CMS3	iCMS3	CRPS1	15	674	749
+92	CRC.SW.U0805.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.37	CMS2	Undefined	CRPS3	-19	Not_Applicable	731
+92	CRC.SW.U0120.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	35	4281	4281
+92	CRC.SW.U0244.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.41	CMS2	iCMS2	CRPS3	-5	4849	4849
+92	CRC.SW.U0225.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.77	Undefined	iCMS2	CRPS3	13	2246	2246
+91	CRC.SW.U0363.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.19	CMS4	iCMS2	CRPS4	19	4768	4768
+91	CRC.SW.U3194.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.11	CMS2	iCMS2	CRPS2	19	6252	6252
+90	CRC.SW.U0263.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.3	CMS2	iCMS2	CRPS3	-1	Not_Applicable	362
+90	CRC.SW.U0852.T	Male	≤ 65	High Grade	Stage III	Hypermutated	MSI	41.19	Undefined	iCMS3	CRPS1	27	3316	3316
+88	CRC.SW.U0579.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.21	CMS2	iCMS2	CRPS3	-27	4510	4510
+88	CRC.SW.UM118.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	40.6	Undefined	iCMS3	CRPS1	-9	1806	1806
+87	CRC.SW.U0292.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.35	CMS3	iCMS3	CRPS1	29	2487	2487
+85	CRC.SW.U2999.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSS	0.06	CMS4	iCMS3	CRPS1	19	1748	1748
+84	CRC.SW.U0276.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.62	CMS2	iCMS2	CRPS3	-1	Not_Applicable	2599
+83	CRC.SW.U3145.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	7	5294	5294
+82	CRC.SW.U0320.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	2.08	CMS2	iCMS2	CRPS3	-15	Not_Applicable	188
+82	CRC.SW.U0203.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.34	CMS3	iCMS3	CRPS5	9	827	827
+82	CRC.SW.U0116.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	CMS2	iCMS2	CRPS2	9	930	930
+81	CRC.SW.UM072.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	1.47	CMS1	iCMS3	CRPS1	-1	Not_Applicable	537
+81	CRC.SW.UM151.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.26	CMS3	iCMS3	CRPS5	-25	1677	1677
+78	CRC.SW.U0211.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.2	CMS3	Undefined	CRPS3	5	2901	2901
+78	CRC.SW.UM120.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	18.5	CMS3	iCMS3	CRPS1	13	2566	2566
+77	CRC.SW.U0277.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.21	CMS3	Undefined	CRPS3	-1	163	270
+77	CRC.SW.U3030.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	26.08	CMS1	iCMS3	CRPS1	15	1535	1535
+76	CRC.SW.UM141.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	40.13	CMS1	iCMS3	CRPS1	27	19	19
+76	CRC.SW.U3249.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	9	6182	6182
+76	CRC.SW.U3176.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	Undefined	Undefined	CRPS2	35	1623	3581
+75	CRC.SW.U0576.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.19	CMS2	iCMS2	CRPS3	-39	4205	4205
+75	CRC.SW.U3048.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.65	CMS2	iCMS2	CRPS2	3	1598	1598
+75	CRC.SW.U2948.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.41	CMS3	iCMS3	CRPS5	21	1710	1710
+75	CRC.SW.U0642.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.55	CMS2	iCMS2	CRPS3	-27	1678	1678
+74	CRC.SW.U0208.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.87	CMS2	iCMS2	CRPS3	17	1330	1330
+74	CRC.SW.UM022.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.77	CMS1	iCMS3	CRPS1	-33	1254	1254
+74	CRC.SW.U2958.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.59	CMS3	iCMS3	CRPS5	-27	1703	1703
+73	CRC.SW.U3034.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.36	CMS4	iCMS2	CRPS2	9	1520	1520
+73	CRC.SW.U3225.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS3	-25	244	244
+72	CRC.SW.U3182.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.1	CMS2	iCMS2	CRPS2	5	7006	7006
+72	CRC.SW.UM080.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	42.41	CMS1	iCMS3	CRPS1	3	836	836
+71	CRC.SW.U0316.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.05	Undefined	iCMS2	CRPS3	13	1892	2927
+71	CRC.SW.UM064.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.38	CMS3	iCMS3	CRPS5	-25	2326	2326
+71	CRC.SW.UM137.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.76	CMS2	iCMS2	CRPS3	-9	353	2175
+69	CRC.SW.U0991.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	2.29	CMS2	iCMS2	CRPS3	-5	269	534
+69	CRC.SW.U3241.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.04	CMS2	iCMS2	CRPS2	19	4127	4127
+69	CRC.SW.U3212.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	35.85	CMS1	iCMS3	CRPS1	7	5181	5181
+69	CRC.SW.UM055.T	Male	≥ 80	High Grade	Stage III	Hypermutated	MSI	44.34	CMS1	iCMS3	CRPS1	31	147	277
+68	CRC.SW.UM169.T	Male	≥ 80	High Grade	Stage II	Hypermutated	MSI	17.71	CMS3	iCMS3	CRPS5	-19	1466	1466
+68	CRC.SW.U0069.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	25.57	CMS4	iCMS3	CRPS1	37	135	135
+68	CRC.SW.UM150.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	46.9	CMS3	iCMS3	CRPS1	-1	1691	1691
+66	CRC.SW.U0562.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.72	CMS3	iCMS3	CRPS5	-19	64	4757
+66	CRC.SW.UM024.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	30.18	CMS1	iCMS3	CRPS1	23	2762	2762
+65	CRC.SW.U3090.T	Female	≥ 80	High Grade	Stage I	Non-Hypermutated	MSS	0.28	CMS4	Undefined	CRPS1	15	788	860
+65	CRC.SW.U0167.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	CMS3	iCMS3	CRPS3	-39	3485	3485
+64	CRC.SW.U0294.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.42	CMS2	iCMS2	CRPS3	-23	Not_Applicable	2226
+64	CRC.SW.U0306.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.3	CMS2	iCMS2	CRPS3	-17	2382	2382
+63	CRC.SW.U0122.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	34.97	CMS1	iCMS3	CRPS1	31	159	159
+62	CRC.SW.U0452.T	Male	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	19	Not_Applicable	4654
+62	CRC.SW.U2971.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.42	CMS1	iCMS3	CRPS1	21	1692	1692
+60	CRC.SW.UM032.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.21	Undefined	iCMS2	CRPS2	7	2693	2693
+60	CRC.SW.U0972.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.88	CMS3	iCMS3	CRPS5	-33	3640	3640
+60	CRC.SW.U0400.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	1.11	CMS2	iCMS2	CRPS3	-33	2085	2085
+59	CRC.SW.U3219.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	10.66	Undefined	iCMS3	CRPS1	15	5263	5263
+58	CRC.SW.U0484.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.44	CMS3	iCMS2	CRPS5	7	2940	2940
+57	CRC.SW.U0179.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.19	CMS2	iCMS2	CRPS2	17	643	1043
+57	CRC.SW.U0404.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.6	CMS2	iCMS2	CRPS2	15	169	204
+56	CRC.SW.U1013.T	Female	≥ 80	Low Grade	Stage III	Hypermutated	MSI	3.59	CMS1	iCMS3	CRPS1	15	2071	2071
+56	CRC.SW.U0104.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	39.09	CMS3	iCMS3	CRPS1	21	1639	1639
+56	CRC.SW.U0314.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.47	CMS2	iCMS2	CRPS3	-3	4101	4101
+56	CRC.SW.U0326.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	1.03	CMS3	iCMS3	CRPS5	-21	550	4843
+55	CRC.SW.U0411.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	Undefined	iCMS2	CRPS2	25	3533	3533
+55	CRC.SW.U0110.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.49	CMS4	iCMS2	CRPS2	9	Not_Applicable	876
+55	CRC.SW.U1344.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.06	CMS2	iCMS2	CRPS2	11	3115	3115
+55	CRC.SW.U0001.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.15	CMS4	iCMS2	CRPS2	27	3496	3496
+54	CRC.SW.U0087.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	16.96	CMS1	iCMS3	CRPS1	47	253	337
+53	CRC.SW.U0553.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS2	iCMS2	CRPS3	-1	3369	3369
+53	CRC.SW.U0591.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.23	CMS3	iCMS3	CRPS5	9	2688	2688
+52	CRC.SW.UM152.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.41	CMS2	iCMS2	CRPS3	-39	Not_Applicable	1388
+52	CRC.SW.U1045.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	41	1239	1239
+52	CRC.SW.U0262.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.71	Undefined	iCMS2	CRPS3	-13	4199	4199
+52	CRC.SW.U0079.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.36	Undefined	iCMS2	CRPS2	-21	1652	1891
+52	CRC.SW.U3248.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.4	CMS2	iCMS2	CRPS2	11	5454	5454
+52	CRC.SW.UM143.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	48.89	CMS3	iCMS3	CRPS5	-27	2006	2006
+51	CRC.SW.U1067.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	17	3235	3235
+51	CRC.SW.U3112.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.89	CMS3	iCMS3	CRPS1	1	1725	1725
+51	CRC.SW.U0188.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS2	Undefined	CRPS3	-33	3799	3799
+51	CRC.SW.U0246.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.81	CMS3	iCMS3	CRPS3	7	2857	2857
+51	CRC.SW.UM160.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	44.52	CMS1	iCMS3	CRPS1	17	1552	1552
+51	CRC.SW.U3104.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.16	CMS4	iCMS2	CRPS4	15	799	2645
+50	CRC.SW.U0466.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.4	CMS2	iCMS2	CRPS2	-7	3046	3046
+50	CRC.SW.UM168.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSS	0.27	CMS2	iCMS2	CRPS3	-37	1638	1638
+50	CRC.SW.UM070.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.06	Undefined	iCMS3	CRPS1	-19	2223	2223
+50	CRC.SW.U3019.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	33.63	CMS1	iCMS3	CRPS1	-11	1659	1659
+50	CRC.SW.U3254.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.36	Undefined	iCMS2	CRPS2	-15	528	6487
+49	CRC.SW.U1432.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.48	CMS3	iCMS3	CRPS5	7	2242	2242
+49	CRC.SW.UM023.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.42	CMS3	iCMS3	CRPS1	-19	2762	2762
+49	CRC.SW.U0128.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.5	CMS3	iCMS3	CRPS5	-5	729	1762
+49	CRC.SW.U1127.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.55	CMS2	iCMS2	CRPS2	-9	4632	4632
+49	CRC.SW.U0331.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS3	-7	Not_Applicable	906
+49	CRC.SW.U3148.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-11	Not_Applicable	1638
+49	CRC.SW.U0934.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.16	CMS3	iCMS3	CRPS3	-47	531	1185
+49	CRC.SW.UM043.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.18	CMS2	iCMS2	CRPS3	-17	2516	2516
+48	CRC.SW.U0007.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.44	CMS2	iCMS2	CRPS3	-9	4690	4690
+48	CRC.SW.U0073.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.89	CMS3	iCMS3	CRPS5	-7	318	318
+47	CRC.SW.U0149.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	31	2882	2882
+47	CRC.SW.U0224.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	48.88	Undefined	iCMS3	CRPS1	23	4032	4032
+47	CRC.SW.UM161.T	Male	≥ 80	High Grade	Stage II	Hypermutated	MSI	43.75	CMS3	iCMS3	CRPS1	-11	1569	1569
+47	CRC.SW.U1032.T	Male	≥ 80	High Grade	Stage III	Hypermutated	MSI	26.24	CMS1	iCMS3	CRPS1	9	3227	3227
+47	CRC.SW.U0937.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	1.24	CMS2	iCMS2	CRPS2	-11	1558	1558
+46	CRC.SW.UM153.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	46.3	CMS1	iCMS3	CRPS1	-23	1683	1683
+45	CRC.SW.U0587.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS2	iCMS2	CRPS3	-5	1353	2888
+44	CRC.SW.U1129.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSS	0.34	CMS4	iCMS2	CRPS2	7	118	118
+44	CRC.SW.U0960.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.45	CMS2	iCMS2	CRPS3	-29	1009	1009
+44	CRC.SW.U0202.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.37	CMS4	iCMS2	CRPS4	15	4335	4335
+43	CRC.SW.U3202.T	Female	≤ 65	Low Grade	Stage I	Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	5	6182	6182
+43	CRC.SW.U3119.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	26.67	Undefined	iCMS3	CRPS1	23	5217	5217
+43	CRC.SW.U3224.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS2	-5	5602	5602
+43	CRC.SW.U0645.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	Undefined	iCMS2	CRPS2	5	3232	3232
+42	CRC.SW.U0278.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.14	Undefined	iCMS3	CRPS3	-35	2428	2428
+42	CRC.SW.U0545.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-25	4005	4005
+42	CRC.SW.U0240.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	45.4	CMS1	Undefined	CRPS1	27	2465	2465
+42	CRC.SW.U0376.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.21	Undefined	iCMS2	CRPS3	15	2630	2630
+41	CRC.SW.U0387.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.21	CMS2	iCMS2	CRPS2	27	2494	2494
+41	CRC.SW.U3050.T	Female	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	21	1562	1562
+41	CRC.SW.U0352.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.06	CMS2	iCMS2	CRPS2	11	385	385
+41	CRC.SW.U1366.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.09	Undefined	iCMS2	CRPS2	-11	3177	3177
+41	CRC.SW.U0174.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.25	CMS4	iCMS2	CRPS2	11	2115	2115
+41	CRC.SW.UM167.T	Female	66-79	High Grade	Stage I	Non-Hypermutated	MSS	0.11	CMS3	iCMS3	CRPS5	-35	1492	1492
+40	CRC.SW.UM048.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS3	11	2459	2459
+40	CRC.SW.U0275.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.94	CMS1	Undefined	CRPS1	25	494	549
+39	CRC.SW.U2856.T	Female	66-79	Low Grade	Stage IV	Hypermutated	MSS	0.17	CMS3	iCMS3	CRPS5	3	Not_Applicable	1827
+39	CRC.SW.U0144.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.05	CMS4	iCMS2	CRPS2	29	1646	1646
+39	CRC.SW.U3179.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	7	1280	6648
+39	CRC.SW.U0157.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	3.32	CMS2	iCMS2	CRPS3	-11	131	131
+39	CRC.SW.U0004.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.3	CMS2	iCMS2	CRPS2	3	4816	4816
+38	CRC.SW.U0012.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS4	iCMS3	CRPS1	19	4587	4587
+38	CRC.SW.U3023.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.02	Undefined	iCMS2	CRPS2	1	1559	1559
+38	CRC.SW.U1472.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS3	iCMS2	CRPS5	-19	2981	2981
+38	CRC.SW.U0135.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	2.58	CMS2	iCMS2	CRPS3	-1	3222	3222
+38	CRC.SW.U0057.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.6	CMS2	iCMS2	CRPS3	-37	1386	1386
+38	CRC.SW.U3141.T	Female	66-79	High Grade	Stage II	Hypermutated	MSS	0.27	CMS3	iCMS3	CRPS1	11	5218	5218
+37	CRC.SW.UM073.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.8	CMS3	iCMS3	CRPS5	-21	120	519
+37	CRC.SW.U1349.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	-7	3564	3564
+37	CRC.SW.UM039.T	Female	66-79	High Grade	Stage IV	Hypermutated	MSI	52.01	Undefined	iCMS3	CRPS1	3	Not_Applicable	431
+37	CRC.SW.U0441.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.16	CMS2	iCMS2	CRPS3	5	4403	4403
+37	CRC.SW.U3263.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.24	CMS3	iCMS3	CRPS5	-5	2744	2744
+35	CRC.SW.U0356.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.66	CMS2	iCMS2	CRPS3	-19	2201	2201
+35	CRC.SW.U0440.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS2	15	4408	4408
+35	CRC.SW.U3170.T	Male	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	7	1373	1802
+35	CRC.SW.U3094.T	Male	66-79	High Grade	Stage II	Hypermutated	MSI	22.14	CMS4	iCMS3	CRPS1	35	2419	2419
+35	CRC.SW.U0385.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.38	CMS2	iCMS2	CRPS3	-37	2567	2567
+34	CRC.SW.U3193.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	Undefined	Undefined	CRPS1	27	119	283
+34	CRC.SW.U0451.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.36	CMS2	iCMS2	CRPS2	17	4688	4688
+33	CRC.SW.U3131.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	3	6974	6974
+33	CRC.SW.UM061.T	Male	≥ 80	Low Grade	Stage III	Hypermutated	MSI	38.57	CMS3	iCMS3	CRPS1	-3	2357	2357
+33	CRC.SW.U0288.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.05	CMS3	iCMS3	CRPS5	-33	2680	2680
+33	CRC.SW.UM041.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.28	CMS2	iCMS2	CRPS3	3	2593	2593
+33	CRC.SW.U3279.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	7	5243	5243
+32	CRC.SW.U1004.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	2.18	Undefined	iCMS2	CRPS3	-13	2296	2296
+32	CRC.SW.U3175.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	15	6788	6788
+32	CRC.SW.U3109.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	-9	3329	3329
+32	CRC.SW.U0201.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.02	Undefined	iCMS2	CRPS2	3	1084	4051
+32	CRC.SW.U0081.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	Undefined	iCMS2	CRPS3	-13	248	248
+32	CRC.SW.U0438.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.09	CMS4	iCMS2	CRPS2	1	3674	3674
+32	CRC.SW.U0429.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0.26	Undefined	iCMS3	CRPS1	9	Not_Applicable	1804
+32	CRC.SW.U0916.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	CMS2	iCMS2	CRPS3	-27	3160	3160
+31	CRC.SW.U1304.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.18	CMS3	iCMS3	CRPS1	5	2248	2248
+31	CRC.SW.U0285.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	3	3830	3830
+31	CRC.SW.UM085.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.6	CMS4	iCMS2	CRPS3	17	3055	3055
+31	CRC.SW.U0535.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	9	4138	4138
+31	CRC.SW.U1049.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	1.34	CMS2	iCMS2	CRPS2	21	1322	1322
+31	CRC.SW.U3147.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	21	1105	1105
+31	CRC.SW.U0390.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.11	Undefined	iCMS2	CRPS2	3	2536	2536
+31	CRC.SW.U0038.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	CMS2	iCMS3	CRPS5	-15	354	523
+30	CRC.SW.U0118.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	15	350	350
+30	CRC.SW.UM171.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	2.23	CMS3	iCMS3	CRPS5	-29	1450	1450
+30	CRC.SW.U0117.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	37.55	CMS1	iCMS3	CRPS1	13	1078	1078
+30	CRC.SW.U0848.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.06	CMS2	iCMS2	CRPS3	-43	Not_Applicable	1185
+30	CRC.SW.U0287.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.13	CMS2	iCMS2	CRPS2	23	3562	3562
+30	CRC.SW.U0148.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	1.67	CMS2	iCMS2	CRPS3	-13	1156	2400
+30	CRC.SW.U3163.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.41	Undefined	iCMS2	CRPS3	9	55	55
+30	CRC.SW.U0089.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	8.52	CMS1	iCMS3	CRPS1	-1	768	768
+30	CRC.SW.U0802.T	Male	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.19	CMS2	iCMS2	CRPS3	-17	Not_Applicable	338
+30	CRC.SW.U0389.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.76	Undefined	Undefined	CRPS3	29	2592	2592
+30	CRC.SW.U0358.T	Female	≤ 65	High Grade	Stage III	Hypermutated	MSI	25.95	CMS4	Undefined	CRPS4	27	3955	3955
+29	CRC.SW.U3126.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	29	7131	7131
+29	CRC.SW.U3214.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	13	6069	6069
+29	CRC.SW.UM158.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	29.68	CMS1	iCMS3	CRPS1	-3	434	434
+28	CRC.SW.U0302.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.18	CMS3	iCMS3	CRPS5	-27	2059	2059
+28	CRC.SW.U0379.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.16	CMS2	iCMS2	CRPS3	-13	3484	3484
+28	CRC.SW.U3061.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	30.88	CMS4	iCMS3	CRPS1	39	6187	6187
+28	CRC.SW.U0568.T	Male	≤ 65		Stage III	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS3	9	2952	2952
+28	CRC.SW.UM131.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.64	CMS3	iCMS3	CRPS5	-19	2272	2272
+28	CRC.SW.U3183.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	15.42	CMS1	iCMS3	CRPS1	25	1747	1747
+28	CRC.SW.UM028.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS3	-21	2703	2703
+28	CRC.SW.U3079.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	31	6624	6624
+28	CRC.SW.U0317.T	Female	≤ 65	Low Grade	Stage III	Hypermutated	MSI	16.06	CMS1	iCMS3	CRPS1	25	4874	4874
+27	CRC.SW.U0215.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	34.45	CMS1	iCMS3	CRPS1	27	1915	1915
+27	CRC.SW.U0321.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	8.67	CMS1	iCMS3	CRPS1	17	2356	2356
+27	CRC.SW.U3088.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	40.81	Undefined	iCMS3	CRPS1	11	72	72
+27	CRC.SW.UM004.T	Female	≥ 80	High Grade	Stage I	Hypermutated	MSI	44.49	CMS3	iCMS3	CRPS5	-39	2657	2657
+27	CRC.SW.U1473.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	18.87	CMS1	iCMS3	CRPS3	7	3218	3218
+27	CRC.SW.UM129.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.49	CMS2	iCMS2	CRPS3	-29	2777	2777
+27	CRC.SW.U0861.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-1	Not_Applicable	184
+27	CRC.SW.U0080.T	Female	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	0.66	CMS3	iCMS3	CRPS5	-7	489	489
+27	CRC.SW.U1201.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.68	CMS2	iCMS2	CRPS3	11	3149	3149
+26	CRC.SW.U0478.T	Male	66-79	High Grade	Stage III	Hypermutated	MSI	4.08	CMS4	iCMS3	CRPS4	17	3716	3716
+26	CRC.SW.U0447.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.16	CMS4	iCMS2	CRPS2	7	3484	3484
+26	CRC.SW.U3038.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	19	1483	1483
+26	CRC.SW.U0139.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS3	-35	1989	1989
+26	CRC.SW.U0502.T	Male	≤ 65	Low Grade	Stage III	Hypermutated	MSI	7.98	CMS1	iCMS3	CRPS1	15	2730	2730
+26	CRC.SW.U0442.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.26	CMS2	iCMS2	CRPS2	-19	2284	2284
+26	CRC.SW.U0083.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSS	2.21	CMS2	iCMS2	CRPS3	-1	543	731
+26	CRC.SW.U0008.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.09	CMS2	iCMS2	CRPS2	-5	4654	4654
+26	CRC.SW.U0070.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.6	Undefined	iCMS2	CRPS2	-5	1319	1319
+26	CRC.SW.U2803.T	Male	66-79	High Grade	Stage III	Hypermutated	MSI	40.37	CMS3	iCMS3	CRPS1	13	484	897
+26	CRC.SW.U2994.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.23	Undefined	Undefined	CRPS2	37	1658	1658
+26	CRC.SW.U0416.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.46	CMS2	iCMS2	CRPS2	-7	2395	2395
+25	CRC.SW.UM164.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.75	CMS3	iCMS3	CRPS5	-43	1530	1530
+25	CRC.SW.U3037.T	Male	≤ 65	Low Grade	Stage III	Hypermutated	MSI	4.16	CMS1	iCMS3	CRPS1	31	1468	1468
+25	CRC.SW.UM005.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.31	CMS2	iCMS2	CRPS3	-31	4268	4268
+25	CRC.SW.UM170.T	Male	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0.82	CMS3	iCMS3	CRPS5	-29	1460	1460
+25	CRC.SW.U0113.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	3	2269	2269
+25	CRC.SW.U0303.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.45	CMS4	iCMS3	CRPS1	23	4014	4014
+25	CRC.SW.U0234.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-39	2655	2655
+25	CRC.SW.U0141.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.1	CMS2	iCMS2	CRPS3	-13	2662	2662
+25	CRC.SW.UM117.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-11	2636	2636
+24	CRC.SW.U0085.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	1.95	CMS2	iCMS2	CRPS3	-33	1698	1698
+24	CRC.SW.U3280.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-1	844	844
+24	CRC.SW.U0125.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.25	CMS2	iCMS2	CRPS2	-31	2333	2333
+24	CRC.SW.U0865.T	Female	66-79		Stage IV	Non-Hypermutated	MSS	0.15	CMS2	iCMS2	CRPS3	-25	Not_Applicable	856
+24	CRC.SW.UM146.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.18	CMS3	iCMS3	CRPS5	-33	Not_Applicable	1874
+24	CRC.SW.U0915.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	25.48	CMS1	iCMS3	CRPS1	25	1906	1906
+24	CRC.SW.UM121.T	Female	66-79	High Grade	Stage I	Hypermutated	MSI	43.59	CMS3	iCMS3	CRPS1	-17	2557	2557
+23	CRC.SW.U0750.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.41	CMS3	iCMS3	CRPS5	-25	670	1393
+23	CRC.SW.U0342.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	1.52	CMS3	iCMS3	CRPS1	-1	252	305
+23	CRC.SW.U3121.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	1	372	1619
+23	CRC.SW.U0162.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	24.56	CMS4	iCMS3	CRPS1	27	2655	2655
+23	CRC.SW.U3208.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	23	230	3769
+23	CRC.SW.U0218.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.02	CMS4	iCMS2	CRPS3	1	2379	2379
+23	CRC.SW.U0005.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.17	CMS4	iCMS2	CRPS2	5	596	2496
+23	CRC.SW.U2861.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.25	CMS2	iCMS2	CRPS2	-7	1602	1602
+23	CRC.SW.U3211.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	30.26	CMS1	iCMS3	CRPS1	19	2063	2063
+23	CRC.SW.U1258.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS2	-19	1789	1789
+22	CRC.SW.U0220.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.19	CMS2	iCMS2	CRPS3	-15	2731	2731
+22	CRC.SW.U3128.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	11	Not_Applicable	6959
+22	CRC.SW.U0539.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.15	CMS2	Undefined	CRPS3	-27	338	3682
+22	CRC.SW.U2819.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.4	CMS3	iCMS3	CRPS5	-41	1875	1875
+22	CRC.SW.U0245.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	CMS4	iCMS2	CRPS4	-3	344	564
+22	CRC.SW.U0433.T	Male	≤ 65		Stage IV	Non-Hypermutated	MSS	0.12	CMS2	iCMS2	CRPS3	15	Not_Applicable	440
+22	CRC.SW.U0558.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.22	CMS2	iCMS2	CRPS3	-7	3676	3676
+22	CRC.SW.UM136.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.05	CMS3	iCMS3	CRPS5	-25	Not_Applicable	527
+22	CRC.SW.U0950.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.54	CMS4	iCMS2	CRPS2	27	1966	1966
+22	CRC.SW.U3206.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	Undefined	iCMS3	CRPS1	23	522	522
+22	CRC.SW.U3005.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	19	959	959
+22	CRC.SW.U1162.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS4	iCMS2	CRPS2	25	354	354
+22	CRC.SW.U0023.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.05	CMS4	iCMS2	CRPS2	29	4155	4155
+21	CRC.SW.U0143.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.14	CMS4	iCMS2	CRPS4	29	3978	3978
+21	CRC.SW.U0228.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.02	Undefined	iCMS2	CRPS3	7	1911	1911
+21	CRC.SW.U0497.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-21	3079	3079
+21	CRC.SW.U1047.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	16.72	CMS1	iCMS3	CRPS1	27	4759	4759
+21	CRC.SW.U3159.T	Male	≥ 80	High Grade	Stage II	Hypermutated	MSI	35.58	CMS1	iCMS3	CRPS1	23	1577	1871
+21	CRC.SW.U0147.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.64	CMS3	iCMS3	CRPS5	-13	2085	2085
+20	CRC.SW.U0369.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS3	-3	2760	2760
+20	CRC.SW.U3097.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS4	iCMS2	CRPS4	19	6504	6504
+20	CRC.SW.U1352.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.02	CMS4	iCMS2	CRPS2	-5	Not_Applicable	741
+20	CRC.SW.U0154.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	18.13	CMS1	iCMS3	CRPS1	25	2485	2485
+20	CRC.SW.U1252.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS1	15	286	1424
+20	CRC.SW.U2942.T	Male	66-79	High Grade	Stage I	Hypermutated	MSI	36.08	CMS1	iCMS3	CRPS1	29	1716	1716
+19	CRC.SW.U3232.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS4	Undefined	CRPS2	-5	2972	2972
+19	CRC.SW.U1158.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	38.15	CMS1	iCMS3	CRPS1	21	2386	2386
+19	CRC.SW.U3220.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-1	5293	5293
+19	CRC.SW.U0984.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.84	CMS2	iCMS2	CRPS2	-19	2952	2952
+19	CRC.SW.U2927.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.22	CMS4	iCMS3	CRPS1	9	1731	1731
+19	CRC.SW.U0111.T	Male	≥ 80	Low Grade	Stage I	Hypermutated	MSI	39.14	CMS1	iCMS3	CRPS1	21	2284	2284
+19	CRC.SW.U0605.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.23	CMS3	iCMS3	CRPS5	-45	387	952
+19	CRC.SW.U3230.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	5	Not_Applicable	63
+19	CRC.SW.U0170.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.05	CMS1	iCMS3	CRPS1	1	832	832
+19	CRC.SW.U0256.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	15.22	CMS4	iCMS3	CRPS1	11	2403	2403
+19	CRC.SW.U3189.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.25	CMS1	iCMS3	CRPS1	25	6810	6810
+19	CRC.SW.U0193.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.26	CMS2	iCMS2	CRPS3	-41	61	876
+19	CRC.SW.U3130.T	Female	≤ 65	High Grade	Stage IV	Hypermutated	MSI	4.15	CMS4	Undefined	CRPS1	35	Not_Applicable	369
+19	CRC.SW.U0300.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.21	CMS3	iCMS3	CRPS5	-29	718	2639
+19	CRC.SW.U0462.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-1	278	1017
+19	CRC.SW.U0561.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-11	3242	3242
+18	CRC.SW.UM122.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS3	-39	2535	2535
+18	CRC.SW.U0929.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.22	CMS3	iCMS3	CRPS5	-3	364	436
+18	CRC.SW.U1474.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.02	CMS3	iCMS3	CRPS5	-33	3179	3179
+18	CRC.SW.U0280.T	Male	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.06	Undefined	iCMS2	CRPS2	11	Not_Applicable	4396
+18	CRC.SW.U0227.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.28	Undefined	Undefined	CRPS3	-13	237	291
+18	CRC.SW.U0289.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	22.46	CMS1	iCMS3	CRPS1	5	4372	4372
+17	CRC.SW.U0091.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	19.23	Undefined	iCMS3	CRPS1	25	2143	2143
+17	CRC.SW.U0235.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	22.34	CMS1	iCMS3	CRPS1	15	2494	2494
+17	CRC.SW.U0273.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.16	Undefined	iCMS3	CRPS1	-7	4306	4306
+17	CRC.SW.U1059.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-39	3957	3957
+17	CRC.SW.U0319.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.19	CMS3	iCMS3	CRPS5	-25	4466	4466
+17	CRC.SW.U3043.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	10.32	Undefined	iCMS3	CRPS1	21	1442	1442
+17	CRC.SW.U0650.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.17	Undefined	iCMS3	CRPS2	-1	2996	2996
+16	CRC.SW.UM019.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	1.1	CMS2	iCMS2	CRPS3	-7	Not_Applicable	932
+16	CRC.SW.U1094.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	33	2434	2434
+16	CRC.SW.U3261.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	41.71	CMS1	iCMS3	CRPS1	23	5601	5601
+16	CRC.SW.U0494.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.08	Undefined	Undefined	CRPS3	-1	2955	2955
+16	CRC.SW.U0361.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS3	iCMS3	CRPS5	-29	575	686
+16	CRC.SW.UM163.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	15.52	Undefined	iCMS3	CRPS1	-9	1557	1557
+16	CRC.SW.U0474.T	Male	≤ 65	Low Grade	Stage III	Hypermutated	MSI	21.7	Undefined	iCMS3	CRPS1	17	2184	2184
+15	CRC.SW.U0185.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.78	CMS3	iCMS3	CRPS5	-13	1762	1762
+15	CRC.SW.U3267.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS2	1	3628	3628
+15	CRC.SW.U0006.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	1.09	Undefined	iCMS2	CRPS3	-25	315	799
+15	CRC.SW.U0933.T	Male	≥ 80	Low Grade	Stage III	Hypermutated	MSI	22.72	Undefined	iCMS3	CRPS1	13	1960	1960
+15	CRC.SW.U3051.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	3	1478	1478
+15	CRC.SW.U3242.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	Undefined	CRPS1	15	3515	3515
+15	CRC.SW.U0359.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.8	CMS3	iCMS3	CRPS5	-25	4108	4108
+15	CRC.SW.U0471.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.1	CMS3	iCMS3	CRPS5	-5	2840	2840
+15	CRC.SW.UM071.T	Male	66-79	Low Grade	Stage III	Hypermutated	MSI	6.43	CMS3	iCMS3	CRPS5	-39	2005	2005
+15	CRC.SW.U1321.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	31	3247	3247
+15	CRC.SW.U1253.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	3	118	165
+15	CRC.SW.U3000.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	35.8	CMS1	iCMS3	CRPS1	33	1647	1647
+14	CRC.SW.U2943.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS2	11	1715	1715
+14	CRC.SW.U0222.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	21	Not_Applicable	1779
+14	CRC.SW.U2991.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.04	Undefined	iCMS3	CRPS5	-17	1661	1661
+14	CRC.SW.U1454.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.41	CMS4	iCMS3	CRPS1	13	2058	2058
+14	CRC.SW.U0299.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS3	iCMS3	CRPS5	-43	378	1318
+14	CRC.SW.U0378.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	41.94	CMS1	iCMS3	CRPS1	21	2480	2480
+14	CRC.SW.U3103.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	-7	1038	1038
+14	CRC.SW.U0556.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-37	3572	3572
+14	CRC.SW.U0543.T2	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.32	CMS2	iCMS2	CRPS3	-15	485	1913
+14	CRC.SW.U0459.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	Undefined	iCMS3	CRPS1	5	2631	2631
+14	CRC.SW.UM092.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	12.64	CMS1	iCMS3	CRPS1	27	2985	2985
+14	CRC.SW.U2747.T	Female	≥ 80	Low Grade	Stage III	Hypermutated	MSI	22.04	CMS3	iCMS3	CRPS1	5	54	54
+13	CRC.SW.U0457.T	Male	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-7	2498	2498
+13	CRC.SW.U3222.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS3	CRPS1	1	3627	3627
+13	CRC.SW.U0353.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-19	4577	4577
+13	CRC.SW.U3180.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.14	CMS4	iCMS2	CRPS2	1	75	247
+13	CRC.SW.U0268.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	8.75	Undefined	Undefined	CRPS1	37	4643	4643
+13	CRC.SW.U0542.T	Male	66-79		Stage III	Non-Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS3	-27	899	1482
+13	CRC.SW.UM059.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-15	127	1394
+13	CRC.SW.U1017.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.58	CMS2	iCMS2	CRPS3	-7	615	615
+13	CRC.SW.U3064.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	17	1637	1637
+13	CRC.SW.U1099.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	44.33	CMS1	iCMS3	CRPS1	-1	3235	3235
+12	CRC.SW.U3029.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	5	1559	1559
+12	CRC.SW.UM031.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	44.19	CMS1	iCMS3	CRPS1	7	888	888
+12	CRC.SW.U1075.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	4.36	CMS1	iCMS3	CRPS1	21	2948	2948
+12	CRC.SW.UM077.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.34	CMS2	iCMS2	CRPS5	-29	168	168
+12	CRC.SW.U0425.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	1.17	CMS3	Undefined	CRPS3	11	2240	2240
+12	CRC.SW.U3078.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.09	CMS4	iCMS3	CRPS4	17	1358	1358
+12	CRC.SW.U1448.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.05	Undefined	iCMS2	CRPS2	9	Not_Applicable	1512
+12	CRC.SW.U1107.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.34	CMS4	iCMS2	CRPS2	-15	1994	1994
+12	CRC.SW.U3192.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	19	232	1158
+12	CRC.SW.UM148.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	11	1142	1142
+12	CRC.SW.U3071.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0.15	CMS4	iCMS2	CRPS2	3	Not_Applicable	893
+12	CRC.SW.U0565.T	Male	≥ 80		Stage III	Non-Hypermutated	MSS	0	CMS1	Undefined	CRPS1	15	2768	2768
+12	CRC.SW.U0464.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	44.5	CMS1	iCMS3	CRPS1	21	2085	2085
+11	CRC.SW.U0472.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS1	iCMS3	CRPS1	35	95	542
+11	CRC.SW.U0237.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS3	-23	3489	3489
+11	CRC.SW.UM053.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	1.03	CMS4	iCMS2	CRPS2	-3	286	2420
+11	CRC.SW.U0392.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	37	174	489
+11	CRC.SW.U0112.T	Female	≥ 80	High Grade	Stage IV	Hypermutated	MSI	34.61	CMS1	iCMS3	CRPS1	19	Not_Applicable	551
+11	CRC.SW.U3024.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	1.35	CMS4	Undefined	CRPS4	-1	1547	1547
+11	CRC.SW.U0094.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-31	1789	1789
+11	CRC.SW.UM056.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	4.09	CMS3	iCMS3	CRPS5	-1	2405	2405
+11	CRC.SW.U0640.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS2	-13	3085	3085
+11	CRC.SW.U0062.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	Undefined	iCMS3	CRPS1	9	4010	4010
+11	CRC.SW.U1073.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.18	CMS3	iCMS3	CRPS5	-37	2202	2202
+11	CRC.SW.U3157.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	22.87	Undefined	iCMS3	CRPS1	23	5503	5503
+11	CRC.SW.U1401.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.13	CMS2	iCMS2	CRPS2	-25	1044	1482
+11	CRC.SW.U0641.T	Female	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0.26	CMS3	iCMS3	CRPS5	-29	3291	3291
+11	CRC.SW.U0592.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	1	670	670
+11	CRC.SW.UM025.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	22.44	CMS1	iCMS3	CRPS1	15	1896	1896
+11	CRC.SW.U1147.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS2	7	282	282
+11	CRC.SW.U0271.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	5	347	4079
+11	CRC.SW.U2902.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	37.14	CMS1	iCMS3	CRPS1	9	1763	1763
+11	CRC.SW.U0101.T	Male	≥ 80	High Grade	Stage III	Hypermutated	MSI	13.99	CMS1	iCMS3	CRPS1	21	1878	1878
+11	CRC.SW.U2960.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS3	iCMS3	CRPS5	-27	1702	1702
+11	CRC.SW.U1396.T	Female	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0.03	Undefined	iCMS3	CRPS1	21	2833	2833
+11	CRC.SW.U2975.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	-7	1681	1681
+11	CRC.SW.U0396.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS2	iCMS2	CRPS2	25	3908	3908
+11	CRC.SW.U1250.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.26	CMS2	iCMS2	CRPS2	15	597	597
+10	CRC.SW.U0651.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.69	CMS2	iCMS2	CRPS2	-1	3019	3019
+10	CRC.SW.UM042.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS1	Undefined	CRPS1	29	2523	2523
+10	CRC.SW.U1122.T	Female	66-79	Low Grade	Stage III	Hypermutated	MSI	24.38	CMS1	iCMS3	CRPS1	19	3340	3340
+10	CRC.SW.U3255.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	3	2831	2831
+10	CRC.SW.U0908.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.21	CMS4	Undefined	CRPS4	13	Not_Applicable	40
+10	CRC.SW.U0420.T	Male	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.6	CMS4	Undefined	CRPS4	15	Not_Applicable	417
+10	CRC.SW.U1018.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.18	Undefined	iCMS3	CRPS1	-3	Not_Applicable	1942
+10	CRC.SW.U0439.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	25	2585	2585
+10	CRC.SW.U1292.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	15.96	Undefined	Undefined	CRPS1	19	2812	2812
+10	CRC.SW.U0514.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS3	-15	1653	4464
+10	CRC.SW.U0418.T	Male	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	1.64	CMS3	iCMS3	CRPS5	-37	2911	2911
+10	CRC.SW.U0121.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.36	CMS2	iCMS2	CRPS2	5	87	655
+10	CRC.SW.U0313.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.38	CMS4	iCMS2	CRPS2	1	2807	2807
+10	CRC.SW.U1040.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.45	CMS3	iCMS3	CRPS5	-39	2196	2196
+10	CRC.SW.U1160.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS2	-17	3222	3222
+10	CRC.SW.U2956.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.21	CMS3	iCMS2	CRPS3	-5	1707	1707
+10	CRC.SW.U0382.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS5	-17	4215	4215
+10	CRC.SW.U0232.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS2	1	994	994
+9	CRC.SW.U0114.T	Male	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	0.32	CMS3	iCMS3	CRPS5	-25	3575	3575
+9	CRC.SW.U1204.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.23	CMS4	iCMS2	CRPS2	33	2591	2591
+9	CRC.SW.U3140.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0.17	Undefined	iCMS2	CRPS2	15	Not_Applicable	1079
+9	CRC.SW.U1078.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	22.86	CMS1	iCMS3	CRPS1	33	2183	2183
+9	CRC.SW.U0217.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	26.46	CMS1	iCMS3	CRPS1	35	538	538
+9	CRC.SW.U1097.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.27	Undefined	iCMS3	CRPS1	-9	4342	4342
+9	CRC.SW.U1317.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.12	CMS2	iCMS2	CRPS3	-33	2630	2630
+9	CRC.SW.U0776.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS1	29	3367	3367
+9	CRC.SW.U3268.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS3	iCMS3	CRPS5	-35	Not_Applicable	5363
+9	CRC.SW.U0596.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS3	-35	3898	3898
+9	CRC.SW.UM058.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.51	Undefined	Undefined	CRPS1	9	1713	1713
+9	CRC.SW.UM047.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS5	-21	892	892
+9	CRC.SW.U1044.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.07	CMS4	iCMS3	CRPS1	27	4811	4811
+9	CRC.SW.U1276.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.09	CMS4	iCMS2	CRPS2	29	4139	4139
+8	CRC.SW.U0290.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	Undefined	iCMS2	CRPS2	7	593	593
+8	CRC.SW.U0315.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS2	Undefined	CRPS2	-17	1973	1973
+8	CRC.SW.U0939.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	33	4625	4625
+8	CRC.SW.U0349.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	CMS3	iCMS2	CRPS3	-23	4347	4347
+8	CRC.SW.U3098.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	Undefined	CRPS2	1	2200	2204
+8	CRC.SW.U0656.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	3	1406	2725
+8	CRC.SW.U0238.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.14	CMS2	iCMS2	CRPS2	-19	868	868
+8	CRC.SW.U2955.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.22	CMS2	iCMS2	CRPS2	-15	1707	1707
+8	CRC.SW.U1074.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS2	-5	253	1043
+8	CRC.SW.U0375.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS2	-25	2331	2331
+8	CRC.SW.U3275.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	Undefined	iCMS3	CRPS5	-29	819	819
+8	CRC.SW.U3203.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	11	6588	6588
+8	CRC.SW.U0793.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS2	iCMS3	CRPS3	-27	Not_Applicable	195
+8	CRC.SW.U1046.T	Female	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.18	CMS3	iCMS3	CRPS5	-41	Not_Applicable	697
+8	CRC.SW.UM060.T	Female	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS3	iCMS3	CRPS1	-23	376	542
+8	CRC.SW.U1103.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.21	CMS4	iCMS3	CRPS4	-9	682	975
+8	CRC.SW.U0260.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.27	Undefined	iCMS2	CRPS2	7	Not_Applicable	4488
+8	CRC.SW.U0347.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.3	CMS3	iCMS3	CRPS5	-39	Not_Applicable	628
+8	CRC.SW.U0098.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	44.21	Undefined	Undefined	CRPS1	23	2473	2473
+8	CRC.SW.U0096.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS2	-3	Not_Applicable	257
+7	CRC.SW.U3273.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	-17	6232	6232
+7	CRC.SW.U1301.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-9	341	877
+7	CRC.SW.U0250.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	42.68	Undefined	iCMS3	CRPS1	5	2571	2571
+7	CRC.SW.U0603.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-33	3569	3569
+7	CRC.SW.U0184.T	Female	66-79	High Grade	Stage IV	Hypermutated	MSI	34.29	CMS1	iCMS3	CRPS1	-25	Not_Applicable	196
+7	CRC.SW.U0213.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	-15	4683	4683
+7	CRC.SW.U0594.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS3	-27	4517	4517
+7	CRC.SW.U0601.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	5	3033	3033
+7	CRC.SW.U0067.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	4.2	CMS1	Undefined	CRPS1	15	2580	2580
+7	CRC.SW.U0492.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.09	CMS2	iCMS2	CRPS2	-17	511	1114
+7	CRC.SW.U0557.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS2	iCMS2	CRPS2	-33	3674	3674
+7	CRC.SW.U0942.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.61	CMS2	iCMS2	CRPS3	-31	1330	1330
+7	CRC.SW.U1031.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-33	3290	3290
+7	CRC.SW.U0694.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.42	CMS3	iCMS3	CRPS5	-43	297	489
+7	CRC.SW.U1303.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.46	CMS2	iCMS2	CRPS2	-3	3450	3450
+7	CRC.SW.U0106.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	28.99	CMS4	iCMS3	CRPS1	39	406	653
+7	CRC.SW.U0350.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	31.55	CMS1	iCMS3	CRPS1	29	2435	2435
+7	CRC.SW.U0088.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS2	-25	Not_Applicable	260
+7	CRC.SW.U0578.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.15	CMS2	iCMS2	CRPS3	13	3389	3389
+7	CRC.SW.U3039.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS4	Undefined	CRPS4	13	Not_Applicable	366
+7	CRC.SW.U0257.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.67	CMS4	iCMS2	CRPS4	15	4173	4173
+7	CRC.SW.U3243.T	Female	66-79	Low Grade	Stage III	Hypermutated	MSI	5.94	CMS4	iCMS3	CRPS1	19	1864	5493
+7	CRC.SW.U0463.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	7.53	CMS4	iCMS3	CRPS4	21	2113	2113
+7	CRC.SW.U0649.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.22	CMS4	iCMS2	CRPS2	11	3089	3089
+6	CRC.SW.U0124.T	Female	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.25	CMS3	iCMS3	CRPS5	-21	4025	4025
+6	CRC.SW.U0473.T	Male	≤ 65	High Grade	Stage III	Hypermutated	MSS	0.01	CMS1	iCMS3	CRPS1	9	2500	2500
+6	CRC.SW.U0409.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-11	2599	2599
+6	CRC.SW.U0584.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-7	4370	4370
+6	CRC.SW.U0200.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	Undefined	iCMS2	CRPS2	-29	4279	4279
+6	CRC.SW.U1208.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.1	CMS3	iCMS3	CRPS5	-27	2001	2001
+6	CRC.SW.U0849.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS1	iCMS3	CRPS1	-9	Not_Applicable	267
+6	CRC.SW.UM110.T	Male	≤ 65	High Grade	Stage II	Hypermutated	MSS	1.23	CMS2	iCMS2	CRPS3	-1	2804	2804
+6	CRC.SW.U0647.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS2	-27	3141	3141
+6	CRC.SW.U2779.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	17	1945	1945
+6	CRC.SW.U2947.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.39	Undefined	iCMS3	CRPS4	7	1710	1710
+6	CRC.SW.U1235.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	41.05	CMS1	iCMS3	CRPS1	-5	2984	2984
+6	CRC.SW.U1220.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.15	CMS4	iCMS2	CRPS2	1	3618	3618
+6	CRC.SW.U0401.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	CMS2	Undefined	CRPS3	-37	3380	3380
+6	CRC.SW.U0467.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	17	3513	3513
+6	CRC.SW.U3106.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.06	CMS4	iCMS2	CRPS4	9	560	560
+6	CRC.SW.U0485.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-29	4402	4402
+6	CRC.SW.U2981.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS2	21	1675	1675
+6	CRC.SW.U0210.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	-23	3465	3465
+6	CRC.SW.U0168.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	CMS4	iCMS2	CRPS2	19	2613	2613
+6	CRC.SW.U0134.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.37	CMS3	iCMS3	CRPS5	1	3195	3195
+6	CRC.SW.U3012.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.41	Undefined	iCMS2	CRPS2	-3	1639	1639
+6	CRC.SW.U3199.T	Female	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	0.02	Undefined	iCMS3	CRPS1	31	1088	1088
+6	CRC.SW.U3215.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.1	Undefined	iCMS3	CRPS1	13	26	26
+6	CRC.SW.U0532.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-23	730	730
+5	CRC.SW.U3271.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-21	5564	5564
+5	CRC.SW.U0145.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	19	Not_Applicable	623
+5	CRC.SW.U0075.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	14.61	CMS1	iCMS3	CRPS1	17	3	3
+5	CRC.SW.U3047.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	11	1348	1348
+5	CRC.SW.U0658.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	CMS3	iCMS3	CRPS5	-33	2773	2773
+5	CRC.SW.U3257.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	-11	6806	6806
+5	CRC.SW.U1095.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	2.97	CMS2	iCMS2	CRPS3	-17	Not_Applicable	3592
+5	CRC.SW.U0354.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.18	CMS2	iCMS2	CRPS2	-33	2095	2095
+5	CRC.SW.U3080.T	Female	≤ 65	High Grade	Stage IV	Hypermutated	MSS	0.16	CMS4	iCMS3	CRPS1	15	Not_Applicable	897
+5	CRC.SW.U0282.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	-3	3534	3534
+5	CRC.SW.U3076.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	40.59	CMS1	Undefined	CRPS1	5	231	253
+5	CRC.SW.U1069.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	4.1	Undefined	iCMS3	CRPS1	1	2187	2187
+5	CRC.SW.U0814.T	Female	≥ 80	Low Grade	Stage IV	Hypermutated	MSI	4.09	CMS3	iCMS3	CRPS1	-17	Not_Applicable	482
+5	CRC.SW.U0251.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.37	CMS2	iCMS2	CRPS3	-21	3571	3571
+5	CRC.SW.U0977.T	Female	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.14	CMS4	iCMS3	CRPS4	17	140	140
+5	CRC.SW.U0443.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS1	-11	2844	2844
+5	CRC.SW.U3113.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	23.19	CMS4	iCMS3	CRPS1	31	3253	3253
+5	CRC.SW.U3160.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	27	Not_Applicable	849
+5	CRC.SW.U0298.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.16	CMS2	iCMS2	CRPS3	-37	2178	2178
+5	CRC.SW.U0175.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.14	CMS2	iCMS2	CRPS3	-3	1072	1875
+5	CRC.SW.U3246.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS2	-27	2345	2345
+5	CRC.SW.U1228.T	Male	66-79	High Grade	Stage II	Hypermutated	MSI	19.92	CMS1	iCMS3	CRPS1	33	2998	2998
+5	CRC.SW.U3156.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	23.09	CMS1	iCMS3	CRPS1	21	2726	2726
+5	CRC.SW.U3059.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	43.68	CMS1	iCMS3	CRPS1	13	179	312
+5	CRC.SW.U3226.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	18.78	Undefined	iCMS3	CRPS1	5	5199	5199
+5	CRC.SW.U0408.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.48	CMS3	iCMS3	CRPS5	-11	2100	2100
+5	CRC.SW.U0552.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-43	3366	3366
+5	CRC.SW.U1130.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.15	CMS3	iCMS3	CRPS5	-27	1570	1570
+5	CRC.SW.U3177.T	Female	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	17	Not_Applicable	602
+4	CRC.SW.U3033.T	Male	66-79	Low Grade	Stage III	Hypermutated	MSI	35.65	CMS1	Undefined	CRPS1	17	1535	1535
+4	CRC.SW.U0351.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	Undefined	iCMS2	CRPS2	-21	4551	4551
+4	CRC.SW.U0105.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	30.55	CMS1	iCMS3	CRPS1	13	2158	2158
+4	CRC.SW.U3122.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	43.46	CMS1	iCMS3	CRPS1	27	2887	3016
+4	CRC.SW.U2896.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	19	1776	1776
+4	CRC.SW.U0177.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.45	CMS2	iCMS2	CRPS2	-7	2020	2020
+4	CRC.SW.U1429.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.07	Undefined	iCMS2	CRPS2	13	3325	3325
+4	CRC.SW.UM051.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS3	iCMS3	CRPS5	-41	Not_Applicable	1640
+4	CRC.SW.U0377.T	Female	≤ 65	High Grade	Stage III	Hypermutated	MSI	7.42	Undefined	Undefined	CRPS1	33	225	4887
+4	CRC.SW.U3105.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	15	1036	1068
+4	CRC.SW.U0434.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-5	4223	4223
+4	CRC.SW.U0072.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	8.98	CMS1	iCMS3	CRPS1	35	3890	3890
+4	CRC.SW.U3173.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	3	3743	3743
+4	CRC.SW.U0258.T	Male	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.09	CMS3	iCMS3	CRPS5	-41	Not_Applicable	195
+4	CRC.SW.U0312.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0.09	CMS4	iCMS3	CRPS1	-5	Not_Applicable	499
+4	CRC.SW.UM057.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	48.77	CMS1	iCMS3	CRPS1	11	2402	2402
+4	CRC.SW.U0119.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	11	4426	4426
+4	CRC.SW.U0140.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-7	4320	4320
+4	CRC.SW.U0402.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-15	1142	4152
+4	CRC.SW.U0187.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS3	-3	1143	1632
+4	CRC.SW.U0470.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS3	iCMS3	CRPS5	-31	2626	2626
+4	CRC.SW.UM044.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	CMS4	iCMS2	CRPS2	11	64	64
+4	CRC.SW.U0383.T	Male	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0.36	CMS4	iCMS2	CRPS2	3	Not_Applicable	595
+4	CRC.SW.U0126.T	Male	66-79	High Grade	Stage II	Hypermutated	MSI	11.01	Undefined	iCMS3	CRPS1	9	2876	2876
+4	CRC.SW.U3200.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	-7	Not_Applicable	921
+4	CRC.SW.U1088.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	18.64	CMS1	iCMS3	CRPS1	13	2597	2597
+4	CRC.SW.U3123.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	10.99	CMS1	iCMS3	CRPS1	35	1271	1271
+4	CRC.SW.UM173.T	Male	≥ 80	Low Grade	Stage III	Hypermutated	MSI	13.08	CMS1	iCMS3	CRPS1	17	1412	1412
+4	CRC.SW.UM034.T	Male	≥ 80	High Grade	Stage II	Hypermutated	MSI	32.25	CMS1	iCMS3	CRPS1	-3	1892	1892
+4	CRC.SW.U0086.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	CMS4	iCMS3	CRPS4	-1	370	594
+4	CRC.SW.U1114.T	Female	66-79	Low Grade	Stage IV	Hypermutated	MSI	42	CMS3	iCMS3	CRPS1	1	Not_Applicable	473
+4	CRC.SW.U1212.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.09	Undefined	iCMS3	CRPS3	-13	69	69
+4	CRC.SW.U0415.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	-7	4191	4191
+4	CRC.SW.U0435.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS2	Undefined	CRPS2	-1	4783	4783
+4	CRC.SW.U3146.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	11	1557	2048
+4	CRC.SW.U0373.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.23	CMS2	iCMS2	CRPS3	-31	3487	3487
+3	CRC.SW.U0338.T	Female	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS4	iCMS3	CRPS1	13	2681	2681
+3	CRC.SW.U0976.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	39.45	CMS1	iCMS3	CRPS1	7	97	97
+3	CRC.SW.U0414.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS2	iCMS3	CRPS5	-33	2858	2858
+3	CRC.SW.U2780.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-19	1945	1945
+3	CRC.SW.U0230.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS2	13	3650	3650
+3	CRC.SW.U3258.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS4	9	6480	6480
+3	CRC.SW.U1274.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	Undefined	iCMS2	CRPS2	5	757	1198
+3	CRC.SW.U3236.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-3	3333	3333
+3	CRC.SW.U3205.T	Male	66-79	High Grade	Stage II	Hypermutated	MSI	23.07	CMS1	iCMS3	CRPS1	27	184	387
+3	CRC.SW.U1347.T	Female	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0.04	CMS2	iCMS2	CRPS2	-19	3066	3066
+3	CRC.SW.U3125.T	Male	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.59	CMS4	iCMS3	CRPS1	13	Not_Applicable	234
+3	CRC.SW.U2917.T	Female	≤ 65	High Grade	Stage III	Hypermutated	MSI	25.95	CMS1	iCMS3	CRPS1	3	1745	1745
+3	CRC.SW.U0239.T	Male	66-79	Low Grade	Stage I	Hypermutated	MSI	50.1	CMS3	iCMS3	CRPS1	-1	67	67
+3	CRC.SW.U0199.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.37	CMS4	iCMS3	CRPS4	11	1759	1759
+3	CRC.SW.U0335.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	9	4129	4129
+3	CRC.SW.U3025.T	Male	66-79	High Grade	Stage IV	Hypermutated	MSI	4.15	Undefined	iCMS3	CRPS1	15	Not_Applicable	1532
+3	CRC.SW.U3172.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.18	CMS2	iCMS2	CRPS2	-27	3241	3241
+3	CRC.SW.UM068.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.72	CMS3	iCMS3	CRPS5	-25	681	904
+3	CRC.SW.U3207.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-5	1126	2419
+3	CRC.SW.U0454.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	25	4662	4662
+3	CRC.SW.U0498.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-33	1443	2643
+3	CRC.SW.U0325.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-7	1947	1947
+3	CRC.SW.U0800.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.03	CMS4	iCMS2	CRPS2	29	Not_Applicable	411
+3	CRC.SW.U0002.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	Undefined	iCMS2	CRPS2	-25	4858	4858
+3	CRC.SW.U0370.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	14.64	CMS1	iCMS3	CRPS1	31	2214	2214
+3	CRC.SW.U1346.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	7.81	Undefined	iCMS3	CRPS1	37	2802	2802
+3	CRC.SW.U3237.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	34.76	Undefined	iCMS3	CRPS1	15	3450	3450
+3	CRC.SW.U3260.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	21.85	CMS1	iCMS3	CRPS1	15	2368	2368
+3	CRC.SW.U3277.T	Male	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	1	Not_Applicable	844
+3	CRC.SW.U0297.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	-9	422	1196
+3	CRC.SW.U1120.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-27	Not_Applicable	823
+3	CRC.SW.U0421.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	3	2339	2339
+3	CRC.SW.U1188.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	15.47	CMS1	iCMS3	CRPS1	33	967	967
+3	CRC.SW.U1007.T	Male	≥ 80	High Grade	Stage II	Hypermutated	MSI	30.35	CMS1	iCMS3	CRPS1	13	2998	2998
+2	CRC.SW.U3108.T	Male	≤ 65	High Grade	Stage II	Hypermutated	MSS	0.05	Undefined	iCMS3	CRPS1	1	566	5300
+2	CRC.SW.U0115.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	8.86	CMS4	iCMS3	CRPS1	13	1226	2281
+2	CRC.SW.U3144.T	Male	66-79	High Grade	Stage II	Hypermutated	MSI	14.46	CMS1	iCMS3	CRPS1	31	2779	2779
+2	CRC.SW.U3227.T	Female	≥ 80	High Grade	Stage IV	Hypermutated	MSI	7.39	CMS1	iCMS3	CRPS1	5	Not_Applicable	311
+2	CRC.SW.U0533.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS3	-43	3913	3913
+2	CRC.SW.U3191.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	22.39	CMS1	iCMS3	CRPS1	9	5550	5550
+2	CRC.SW.U0311.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-19	2841	2841
+2	CRC.SW.U0450.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS2	-7	2428	2428
+2	CRC.SW.U0243.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.07	Undefined	iCMS3	CRPS1	11	3636	3636
+2	CRC.SW.U0281.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-7	2598	2598
+2	CRC.SW.U0020.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.16	CMS4	iCMS2	CRPS2	-23	4444	4444
+2	CRC.SW.U0993.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-33	1135	1525
+2	CRC.SW.U0803.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS2	Undefined	CRPS2	-25	Not_Applicable	495
+2	CRC.SW.U3114.T	Female	66-79	High Grade	Stage II	Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS1	31	5251	5251
+2	CRC.SW.U0330.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	19	27	1227
+2	CRC.SW.U0405.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.22	CMS2	iCMS2	CRPS2	1	604	2494
+2	CRC.SW.U0176.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	-5	4265	4265
+2	CRC.SW.U0152.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	1.24	CMS3	iCMS3	CRPS5	-29	1874	1874
+2	CRC.SW.U0938.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	43.97	CMS1	iCMS3	CRPS1	17	1231	1231
+2	CRC.SW.U0242.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	-9	4615	4615
+2	CRC.SW.U0254.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS4	iCMS3	CRPS1	11	2324	2324
+2	CRC.SW.U3093.T	Female	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	0.47	CMS1	iCMS3	CRPS1	-7	1302	1302
+2	CRC.SW.U3269.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	-11	5507	5507
+2	CRC.SW.U0399.T	Female	≤ 65	Low Grade	Stage III	Hypermutated	MSI	26.68	CMS1	iCMS3	CRPS1	15	126	547
+2	CRC.SW.U0602.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-21	3050	3050
+2	CRC.SW.U0279.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.03	Undefined	Undefined	CRPS5	-41	176	176
+2	CRC.SW.U3154.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.1	Undefined	iCMS3	CRPS2	-9	5553	5553
+2	CRC.SW.U0205.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS2	-33	4649	4649
+2	CRC.SW.UM154.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	14.56	Undefined	iCMS3	CRPS1	-19	148	1672
+2	CRC.SW.U0186.T	Female	66-79	High Grade	Stage I	Hypermutated	MSI	29.53	CMS1	iCMS3	CRPS1	23	4893	4893
+2	CRC.SW.U0469.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.05	CMS2	iCMS2	CRPS2	-33	2074	2074
+2	CRC.SW.U0534.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-21	3026	3026
+2	CRC.SW.U2966.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.06	Undefined	iCMS2	CRPS2	9	1694	1694
+2	CRC.SW.U0445.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	14.21	CMS1	iCMS3	CRPS1	25	3516	3516
+2	CRC.SW.U0572.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	3	4286	4286
+2	CRC.SW.U0296.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	9	4275	4275
+2	CRC.SW.U3204.T	Male	≤ 65	High Grade	Stage III	Hypermutated	MSI	6.87	CMS1	iCMS3	CRPS1	25	6546	6546
+2	CRC.SW.U1022.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.85	Undefined	iCMS3	CRPS1	-13	61	61
+2	CRC.SW.U1338.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	33	1515	1515
+2	CRC.SW.U3008.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	30.98	CMS1	iCMS3	CRPS1	27	1099	1099
+2	CRC.SW.U1386.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS2	5	3183	3183
+2	CRC.SW.U1041.T	Male	≥ 80	Low Grade	Stage I	Non-Hypermutated	MSS	0.78	CMS1	iCMS3	CRPS1	-25	1268	1268
+2	CRC.SW.U0309.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.14	CMS2	iCMS2	CRPS2	-11	2732	2732
+2	CRC.SW.U0713.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	-7	2024	2024
+2	CRC.SW.U3195.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	25	1088	1088
+2	CRC.SW.U0857.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	7	Not_Applicable	954
+2	CRC.SW.U0183.T	Male	66-79	Low Grade	Stage III	Hypermutated	MSI	25.92	CMS1	iCMS3	CRPS1	35	3764	3764
+2	CRC.SW.U3168.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	11	167	167
+2	CRC.SW.U0307.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	11.82	Undefined	iCMS3	CRPS1	21	4586	4586
+2	CRC.SW.U0460.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	10.56	CMS4	iCMS3	CRPS1	21	373	2069
+2	CRC.SW.U0264.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	17	590	2020
+2	CRC.SW.U0214.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	-9	Not_Applicable	788
+2	CRC.SW.U0360.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS2	CRPS2	13	2681	2681
+2	CRC.SW.UM030.T	Male	≤ 65	Low Grade	Stage III	Hypermutated	MSI	4.13	CMS3	iCMS3	CRPS5	-31	2339	2339
+2	CRC.SW.U3221.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0.04	Undefined	iCMS3	CRPS1	-9	2855	2855
+2	CRC.SW.U0291.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS2	iCMS2	CRPS2	-15	Not_Applicable	3922
+2	CRC.SW.U0371.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	5	4353	4353
+2	CRC.SW.U3253.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	-23	170	392
+1	CRC.SW.U0158.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	1	4766	4766
+1	CRC.SW.U0209.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	41	339	2855
+1	CRC.SW.U1374.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS2	-1	1994	1994
+1	CRC.SW.U0132.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS2	-21	351	1798
+1	CRC.SW.U3187.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0.07	CMS4	iCMS2	CRPS2	-1	Not_Applicable	308
+1	CRC.SW.U0102.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS2	-17	415	670
+1	CRC.SW.U0247.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	-17	4203	4203
+1	CRC.SW.U0403.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	13	3474	3474
+1	CRC.SW.U1065.T	Female	66-79	Low Grade	Stage III	Hypermutated	MSI	7.92	Undefined	iCMS3	CRPS1	9	4619	4619
+1	CRC.SW.U1037.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS2	7	3021	3021
+1	CRC.SW.U0329.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.08	Undefined	iCMS2	CRPS3	-23	2470	2470
+1	CRC.SW.U0266.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	Undefined	Undefined	CRPS2	-7	3886	3886
+1	CRC.SW.U0882.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-7	2479	2479
+1	CRC.SW.U3197.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	25	2809	3752
+1	CRC.SW.U0161.T	Male	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0.2	CMS4	iCMS3	CRPS4	31	Not_Applicable	42
+1	CRC.SW.U3250.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-25	1915	3268
+1	CRC.SW.U1392.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	11.45	Undefined	iCMS3	CRPS1	19	3178	3178
+1	CRC.SW.U0206.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	4.17	CMS4	iCMS3	CRPS1	11	3507	3507
+1	CRC.SW.U0424.T	Male	≤ 65	High Grade	Stage II	Hypermutated	MSS	0	Undefined	Undefined	CRPS1	15	333	2317
+1	CRC.SW.U0173.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.08	CMS4	iCMS2	CRPS4	27	1808	4040
+1	CRC.SW.U0097.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS2	-33	Not_Applicable	2903
+1	CRC.SW.U2837.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	Undefined	iCMS3	CRPS1	-1	1848	1848
+1	CRC.SW.U0129.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.09	CMS4	iCMS2	CRPS2	9	1265	1265
+1	CRC.SW.U2754.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-3	1974	1974
+1	CRC.SW.U3228.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS2	3	482	2423
+1	CRC.SW.U3278.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	9	4087	4087
+1	CRC.SW.U0107.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-35	2354	2354
+1	CRC.SW.U0334.T	Male	≤ 65		Stage III	Non-Hypermutated	MSS	0.26	CMS3	iCMS3	CRPS5	-31	4836	4836
+1	CRC.SW.U0146.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	17.26	CMS4	iCMS3	CRPS4	17	354	733
+1	CRC.SW.UM155.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.08	CMS2	iCMS2	CRPS3	-27	1647	1647
+1	CRC.SW.U0322.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	-9	967	1694
+1	CRC.SW.U1332.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0.02	CMS4	iCMS3	CRPS1	17	3337	3337
+1	CRC.SW.U0318.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	24.24	CMS1	iCMS3	CRPS1	5	2427	2427
+1	CRC.SW.U0259.T	Female	66-79	High Grade	Stage III	Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	17	65	76
+1	CRC.SW.U2964.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-13	1700	1700
+1	CRC.SW.U0355.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.05	CMS1	iCMS3	CRPS1	-9	898	1721
+1	CRC.SW.U0100.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS1	-21	1920	1920
+1	CRC.SW.U1034.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-5	551	1575
+1	CRC.SW.U0172.T	Male	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS4	iCMS3	CRPS4	-7	356	678
+1	CRC.SW.U0388.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	-3	3851	3851
+1	CRC.SW.U0648.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	11	3080	3080
+1	CRC.SW.U0323.T	Male	66-79	Low Grade	Stage I	Hypermutated	MSI	20.1	Undefined	iCMS3	CRPS1	31	1016	1016
+1	CRC.SW.U2889.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.02	Undefined	iCMS2	CRPS2	-1	1790	1790
+1	CRC.SW.U0182.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	4.1	CMS1	iCMS3	CRPS1	25	79	260
+1	CRC.SW.U1213.T	Female	66-79	High Grade	Stage I	Hypermutated	MSI	5.28	CMS1	iCMS3	CRPS1	15	2225	2225
+1	CRC.SW.U0955.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	7.72	CMS1	iCMS3	CRPS1	31	2268	2268
+1	CRC.SW.U0357.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	17	3036	3036
+1	CRC.SW.U0637.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	-3	3662	3662
+1	CRC.SW.U0966.T	Male	≥ 80	High Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS3	iCMS3	CRPS5	-9	1513	1513
+1	CRC.SW.U1257.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS2	-17	2498	2498
+1	CRC.SW.U3118.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	22.7	CMS1	iCMS3	CRPS1	29	1961	1961
+1	CRC.SW.U0333.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS3	CRPS2	-31	1064	1959
+1	CRC.SW.U0343.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS5	-33	2366	2366
+1	CRC.SW.U3216.T	Male	≥ 80	Low Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	23	Not_Applicable	787
+1	CRC.SW.U3158.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	11.02	CMS4	iCMS3	CRPS1	33	2628	2628
+1	CRC.SW.U3184.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.06	CMS4	iCMS2	CRPS2	23	Not_Applicable	6649
+1	CRC.SW.U0422.T	Female	≤ 65	High Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	33	Not_Applicable	1710
+1	CRC.SW.U0386.T	Female	≤ 65	Low Grade	Stage IV	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	-7	Not_Applicable	3000
+1	CRC.SW.U0136.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-11	4460	4460
+1	CRC.SW.U0604.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-5	3187	3187
+1	CRC.SW.U0269.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	38	Undefined	iCMS3	CRPS1	27	4195	4195
+1	CRC.SW.UM166.T	Female	≥ 80	Low Grade	Stage III	Hypermutated	MSI	48.13	Undefined	iCMS3	CRPS1	-15	1409	1409
+1	CRC.SW.U3151.T	Female	≤ 65	High Grade	Stage II	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	7	5595	5595
+1	CRC.SW.U1086.T	Female	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS2	-15	4572	4572
+1	CRC.SW.U1486.T	Female	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	-3	961	1948
+1	CRC.SW.U0368.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.24	CMS3	iCMS3	CRPS5	-17	2466	2466
+1	CRC.SW.U0600.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS2	-29	396	3324
+1	CRC.SW.U0190.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	Undefined	CRPS4	-13	3366	3366
+1	CRC.SW.U0155.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.05	CMS3	iCMS3	CRPS5	-39	400	1672
+1	CRC.SW.U0255.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	-31	559	1079
+1	CRC.SW.U0657.T	Female	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	15	2774	2774
+1	CRC.SW.U0229.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.22	CMS3	iCMS3	CRPS5	-37	Not_Applicable	2115
+1	CRC.SW.U0295.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	-29	4237	4237
+1	CRC.SW.U0092.T	Male	≥ 80	Low Grade	Stage II	Hypermutated	MSI	4.19	Undefined	iCMS3	CRPS1	-3	4052	4052
+1	CRC.SW.U0949.T	Female	≥ 80	High Grade	Stage IV	Hypermutated	MSI	39.32	CMS1	iCMS3	CRPS1	21	Not_Applicable	594
+1	CRC.SW.U0151.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	34.17	CMS1	iCMS3	CRPS1	9	3679	3679
+1	CRC.SW.U1327.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	39.28	CMS1	iCMS3	CRPS1	-7	3278	3278
+1	CRC.SW.U1251.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	13	126	126
+1	CRC.SW.U0671.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS2	-35	785	785
+1	CRC.SW.U0970.T	Female	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-7	2604	2604
+1	CRC.SW.U0305.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	5	4341	4341
+1	CRC.SW.U3149.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-3	761	973
+1	CRC.SW.U1246.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	Undefined	CRPS3	-33	1597	2692
+1	CRC.SW.U0381.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-17	71	71
+1	CRC.SW.U0304.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.05	CMS3	iCMS3	CRPS5	-37	3730	3730
+0	CRC.SW.U0198.T	Male	66-79	High Grade	Stage III	Hypermutated	MSI	7.2	CMS1	iCMS3	CRPS1	17	2937	2937
+0	CRC.SW.U1436.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	16.59	CMS4	iCMS3	CRPS1	17	3410	3410
+0	CRC.SW.U0133.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	15.98	CMS1	iCMS3	CRPS1	7	1913	1913
+0	CRC.SW.U0099.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	21.93	CMS1	iCMS3	CRPS1	15	986	986
+0	CRC.SW.U0308.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.17	CMS3	iCMS3	CRPS1	11	2242	2242
+0	CRC.SW.U3217.T	Female	66-79	High Grade	Stage IV	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS1	-1	Not_Applicable	852
+0	CRC.SW.U2761.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS2	iCMS2	CRPS2	-7	1973	1973
+0	CRC.SW.U1150.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	7.28	CMS1	iCMS3	CRPS1	21	15	15
+0	CRC.SW.U3018.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-21	1618	1618
+0	CRC.SW.U0216.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0.06	CMS4	iCMS3	CRPS4	3	4145	4145
+0	CRC.SW.U0252.T	Male	66-79	High Grade	Stage III	Hypermutated	MSI	14	CMS1	iCMS3	CRPS1	5	1554	1761
+0	CRC.SW.U2753.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	4.18	CMS4	iCMS3	CRPS1	21	1980	1980
+0	CRC.SW.U3270.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	8.28	CMS4	iCMS3	CRPS1	-3	937	937
+0	CRC.SW.U0270.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	7.67	CMS3	iCMS3	CRPS1	5	3852	3852
+0	CRC.SW.U0339.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	-11	1072	2155
+0	CRC.SW.U0456.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	5	2634	3391
+0	CRC.SW.U1062.T	Female	66-79	High Grade	Stage II	Non-Hypermutated	MSS	0.03	CMS4	iCMS2	CRPS2	23	3354	3354
+0	CRC.SW.U0643.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS4	iCMS2	CRPS2	-17	3248	3248
+0	CRC.SW.U3247.T	Male	≥ 80	High Grade	Stage IV	Non-Hypermutated	MSS	0	Undefined	iCMS3	CRPS4	-37	Not_Applicable	132
+0	CRC.SW.U0142.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	39.08	CMS1	iCMS3	CRPS1	-21	2340	2340
+0	CRC.SW.U0428.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS2	-25	2183	2183
+0	CRC.SW.U3259.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSS	0	CMS4	iCMS3	CRPS4	-9	216	216
+0	CRC.SW.U0207.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	25.94	CMS1	iCMS3	CRPS1	5	3299	3299
+0	CRC.SW.U2774.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	4.22	Undefined	iCMS3	CRPS1	1	1652	1652
+0	CRC.SW.U0862.T	Male	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.17	CMS2	iCMS2	CRPS3	-7	Not_Applicable	1064
+0	CRC.SW.U0131.T	Female	≥ 80	High Grade	Stage IV	Non-Hypermutated	MSS	0.05	CMS4	iCMS3	CRPS1	25	Not_Applicable	238
+0	CRC.SW.U0663.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-3	1087	2427
+0	CRC.SW.U1241.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.19	CMS4	iCMS3	CRPS4	-1	49	49
+0	CRC.SW.U0324.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS3	-33	2603	2603
+0	CRC.SW.U3229.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	39.2	CMS1	iCMS3	CRPS1	1	5180	5180
+0	CRC.SW.U0165.T	Female	≥ 80	Low Grade	Stage I	Hypermutated	MSI	38.76	CMS1	iCMS3	CRPS1	-9	2869	2869
+0	CRC.SW.U0082.T	Female	≥ 80	High Grade	Stage III	Hypermutated	MSI	6.64	CMS1	iCMS3	CRPS1	-21	2339	2339
+0	CRC.SW.U0987.T	Female	≥ 80	High Grade	Stage II	Hypermutated	MSI	24.13	Undefined	iCMS3	CRPS1	25	3649	3649
+0	CRC.SW.U0589.T	Female	≤ 65	High Grade	Stage II	Hypermutated	MSS	0	CMS1	iCMS3	CRPS1	23	2343	2343
+0	CRC.SW.U0221.T	Male	66-79	High Grade	Stage II	Hypermutated	MSI	35.34	CMS1	iCMS3	CRPS1	7	2234	2234
+0	CRC.SW.U3245.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	22.08	Undefined	iCMS3	CRPS1	5	6881	6881
+0	CRC.SW.U3100.T	Male	≥ 80	High Grade	Stage III	Hypermutated	MSI	33.1	CMS1	iCMS3	CRPS1	-1	4189	4189
+0	CRC.SW.U0204.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	22.36	CMS1	iCMS3	CRPS1	15	1859	1859
+0	CRC.SW.U1145.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	11	293	445
+0	CRC.SW.U0196.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	Undefined	iCMS3	CRPS2	-33	2450	2450
+0	CRC.SW.U0178.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.21	CMS4	iCMS2	CRPS2	-11	882	2437
+0	CRC.SW.U2842.T	Female	≤ 65	High Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS4	iCMS3	CRPS2	-19	1327	1327
+0	CRC.SW.U1111.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	-23	2378	2378
+0	CRC.SW.U0137.T	Male	≥ 80	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	37	1799	1799
+0	CRC.SW.U0453.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	1	4524	4524
+0	CRC.SW.UM157.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS2	iCMS2	CRPS2	-21	1600	1600
+0	CRC.SW.U0153.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-17	3383	3383
+0	CRC.SW.U0804.T	Female	66-79	Low Grade	Stage IV	Non-Hypermutated	MSS	0.01	CMS1	iCMS3	CRPS3	-27	Not_Applicable	380
+0	CRC.SW.U0163.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0.03	Undefined	Undefined	CRPS1	3	697	697
+0	CRC.SW.U0192.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-15	3746	3746
+0	CRC.SW.U3233.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	-19	236	413
+0	CRC.SW.U3188.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.25	CMS4	iCMS2	CRPS2	11	4087	4087
+0	CRC.SW.U0348.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	21	2198	2198
+0	CRC.SW.U3240.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	3	3276	3276
+0	CRC.SW.U0267.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.22	CMS4	iCMS3	CRPS1	25	152	445
+0	CRC.SW.U0253.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	13.44	CMS1	iCMS3	CRPS1	15	2623	2623
+0	CRC.SW.U1184.T	Male	66-79	High Grade	Stage IV	Hypermutated	MSI	15.46	CMS4	iCMS3	CRPS1	-7	Not_Applicable	290
+0	CRC.SW.U3231.T	Female	≤ 65	High Grade	Stage III	Hypermutated	MSI	25.81	Undefined	iCMS3	CRPS1	9	5329	5329
+0	CRC.SW.U1446.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	4.11	CMS4	iCMS3	CRPS2	-9	3481	3481
+0	CRC.SW.U0327.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	26.67	CMS3	iCMS3	CRPS1	-17	2498	2498
+0	CRC.SW.U0189.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	23.67	CMS1	iCMS3	CRPS1	29	1282	1823
+0	CRC.SW.U0066.T	Male	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-17	2486	2486
+0	CRC.SW.U0444.T	Female	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	CMS4	iCMS2	CRPS2	-1	3506	3506
+0	CRC.SW.U2834.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.06	CMS4	iCMS2	CRPS4	17	1849	1849
+0	CRC.SW.U1240.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0.04	CMS4	iCMS2	CRPS2	23	765	765
+0	CRC.SW.U2935.T	Male	66-79	High Grade	Stage III	Hypermutated	MSI	15.96	CMS1	iCMS3	CRPS1	21	1722	1722
+0	CRC.SW.U0249.T	Female	66-79	High Grade	Stage III	Hypermutated	MSI	4.12	CMS1	iCMS3	CRPS1	11	2539	2539
+0	CRC.SW.U0398.T	Female	≤ 65	Low Grade	Stage II	Hypermutated	MSI	14.55	CMS1	iCMS3	CRPS1	9	2386	2386
+0	CRC.SW.U0362.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	Undefined	CRPS2	-13	2813	2813
+0	CRC.SW.U3266.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS2	-3	5900	5900
+0	CRC.SW.UM050.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS3	iCMS3	CRPS5	-39	246	246
+0	CRC.SW.U1183.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-43	414	959
+0	CRC.SW.U0159.T	Female	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS4	iCMS2	CRPS4	11	1517	1517
+0	CRC.SW.U1267.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-35	4534	4534
+0	CRC.SW.U2792.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.15	CMS4	iCMS2	CRPS2	9	1925	1925
+0	CRC.SW.U0430.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS4	7	4137	4137
+0	CRC.SW.U0344.T	Male	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.09	CMS3	iCMS3	CRPS5	-15	2483	2483
+0	CRC.SW.U0078.T	Female	≥ 80	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	7	2848	2848
+0	CRC.SW.U0646.T	Male	≤ 65	Low Grade	Stage III	Non-Hypermutated	MSS	0.03	Undefined	Undefined	CRPS1	15	1307	1307
+0	CRC.SW.U0380.T	Male	≤ 65	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	iCMS2	CRPS2	9	3820	3820
+0	CRC.SW.U1239.T	Male	66-79	Low Grade	Stage I	Non-Hypermutated	MSS	0	Undefined	Undefined	CRPS2	-25	1998	1998
+0	CRC.SW.U3272.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	4.19	CMS1	iCMS3	Undefined	-13	5468	5468
+0	CRC.SW.U0233.T	Female	66-79	Low Grade	Stage III	Hypermutated	MSI	4.79	CMS1	iCMS3	CRPS1	15	315	975
+0	CRC.SW.U0397.T	Male	≤ 65	Low Grade	Stage II	Hypermutated	MSI	16.52	Undefined	iCMS3	CRPS1	1	2830	2830
+0	CRC.SW.U0231.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	10.59	CMS1	iCMS3	CRPS1	37	2158	2158
+0	CRC.SW.U3235.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	7.36	CMS1	iCMS3	CRPS1	-15	5528	5528
+0	CRC.SW.U0274.T	Male	66-79	Low Grade	Stage II	Hypermutated	MSI	19.06	CMS1	iCMS3	CRPS1	13	1570	1570
+0	CRC.SW.U0156.T	Female	≥ 80	Low Grade	Stage III	Hypermutated	MSI	4.08	CMS1	iCMS3	CRPS1	-1	2740	2740
+0	CRC.SW.U0522.T	Female	66-79	High Grade	Stage III	Non-Hypermutated	MSS	0.02	CMS1	iCMS3	CRPS1	23	2517	2517
+0	CRC.SW.U0138.T	Male	≥ 80	High Grade	Stage III	Non-Hypermutated	MSS	0.21	CMS4	iCMS2	CRPS4	7	2631	2631
+0	CRC.SW.U3101.T	Female	≥ 80	Low Grade	Stage II	Hypermutated	MSI	44.08	CMS1	iCMS3	CRPS1	21	1782	1782
+0	CRC.SW.U1102.T	Male	66-79	Low Grade	Stage I	Hypermutated	MSI	45.35	CMS1	iCMS3	CRPS1	21	3019	3019
+0	CRC.SW.UM067.T	Female	66-79	Low Grade	Stage I	Hypermutated	MSI	48.23	CMS3	iCMS3	CRPS5	-27	2260	2260
+0	CRC.SW.U0590.T	Female	66-79	Low Grade	Stage II	Hypermutated	MSI	20.72	CMS1	iCMS3	CRPS1	-1	2326	2326
+0	CRC.SW.U3213.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	33.1	CMS1	iCMS3	CRPS1	17	5707	5707
+0	CRC.SW.U1071.T	Female	66-79	High Grade	Stage II	Hypermutated	MSI	7.25	CMS1	iCMS3	CRPS1	-5	3179	3179
+0	CRC.SW.U0465.T	Male	≤ 65	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-25	4048	4048
+0	CRC.SW.U0508.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.17	CMS3	iCMS3	CRPS5	-27	370	1120
+0	CRC.SW.U0332.T	Female	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS4	iCMS3	CRPS2	5	3766	3766
+0	CRC.SW.U0654.T	Male	66-79	Low Grade	Stage III	Non-Hypermutated	MSS	0.01	CMS4	iCMS2	CRPS2	11	420	2885
+0	CRC.SW.U3239.T	Male	66-79	Low Grade	Stage II	Non-Hypermutated	MSS	0	CMS2	iCMS2	CRPS2	-27	3216	3216
+0	CRC.SW.U3274.T	Female	≤ 65	High Grade	Stage III	Hypermutated	MSS	0.41	CMS4	iCMS3	CRPS1	13	4122	4122

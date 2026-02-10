@@ -1,0 +1,10 @@
+value	tp	tissue
+0.049226865	model_2_v	Liver
+0.2234921349999999	model_2_v	Muscle_Skeletal
+0.05099751	model_2_v	Cells_EBV-transformed_lymphocytes
+0.07520031	slope	Liver
+0.18550716	slope	Muscle_Skeletal
+0.048706837	slope	Cells_EBV-transformed_lymphocytes
+0.23136467627547203	p	Liver
+1.4724536164795894	p	Muscle_Skeletal
+0.25213056465723155	p	Cells_EBV-transformed_lymphocytes

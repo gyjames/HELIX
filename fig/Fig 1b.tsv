@@ -1,0 +1,49 @@
+Tissue	Seq	n_sample	n_events	y_min	y_max	Tissue_name
+Central Nervous System	Short_reads	41	4686469	0	41	Brain
+Heart	Short_reads	40	3781245	41	81	Heart
+Blood	Short_reads	39	5069070	81	120	Blood
+Gastrointestinal System	Short_reads	31	3966670	120	151	Gastrointestinal Tract
+Lung	Short_reads	31	4236277	151	182	Lung
+Skin	Short_reads	25	3756861	182	207	Skin
+Bone	Short_reads	17	1109924	207	224	Bone
+Kidney	Short_reads	15	2457516	224	239	Kidney
+Ovary	Short_reads	14	2013324	239	253	Ovary
+Breast	Short_reads	13	1631751	253	266	Breast
+Sympathetic Nervous System	Short_reads	10	1705336	266	276	Spinal Cord
+Liver	Short_reads	9	1132747	276	285	Liver
+Ocular System	Short_reads	9	1216778	285	294	Eyes
+Pancreas	Short_reads	9	360058	294	303	Pancreas
+Endocrine System	Short_reads	8	1209698	303	311	Glands
+Prostate	Short_reads	8	1070769	311	319	Prostate
+iPSC	Short_reads	8	639348	319	327	iPSC
+Embryonic	Short_reads	6	350287	327	333	Embryo
+Lymphatic System	Short_reads	6	802145	333	339	Lymph Nodes
+Mesenchymal Stem System	Short_reads	6	834736	339	345	Mesenchymal Stem Cells
+Placenta System	Short_reads	6	641128	345	351	Placenta
+Uterus	Short_reads	6	746920	351	357	Uterus
+Adipose System	Short_reads	5	705475	357	362	Fat
+Hair System	Short_reads	5	706924	362	367	Hair Follicle
+Muscle	Short_reads	5	670103	367	372	Muscle
+Testicle	Short_reads	4	596219	372	376	Testicle
+Umbilical Cord System	Short_reads	4	581748	376	380	Umbilical Cord
+Urethral System	Short_reads	4	698926	380	384	Urethra
+Oral System	Short_reads	3	498304	384	387	Oral Cavity
+Tonsil System	Short_reads	3	569896	387	390	Tongue
+Heart	Long_reads	36	894045	390	426	Heart
+Central Nervous System	Long_reads	33	1074576	426	459	Brain
+Skin	Long_reads	21	845632	459	480	Skin
+Lung	Long_reads	20	647025	480	500	Lung
+Muscle	Long_reads	13	389448	500	513	Muscle
+Liver	Long_reads	11	287605	513	524	Liver
+iPSC	Long_reads	10	260888	524	534	iPSC
+Breast	Long_reads	7	212751	534	541	Breast
+Gastrointestinal System	Long_reads	7	191349	541	548	Gastrointestinal Tract
+Pancreas	Long_reads	6	170228	548	554	Pancreas
+Blood	Long_reads	5	159770	554	559	Blood
+Bone	Long_reads	5	129615	559	564	Bone
+Embryonic	Long_reads	4	155005	564	568	Embryo
+Ovary	Long_reads	4	119347	568	572	Ovary
+Adipose System	Long_reads	2	50804	572	574	Fat
+Kidney	Long_reads	2	50094	574	576	Kidney
+Umbilical Cord System	Long_reads	2	70938	576	578	Umbilical Cord
+Prostate	Long_reads	1	36077	578	579	Prostate

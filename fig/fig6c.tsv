@@ -1,0 +1,9 @@
+celltype	variable	value
+Tumor	dysreg_pred	1
+Myeloid	dysreg_pred	0.92095591873701
+Fibroblast	dysreg_pred	0.908518649896637
+Endothelial	dysreg_pred	0.771905379294585
+Tumor	dysreg_true	1
+Myeloid	dysreg_true	0.94718631969843
+Fibroblast	dysreg_true	0.890019769338677
+Endothelial	dysreg_true	0.832343169352108
